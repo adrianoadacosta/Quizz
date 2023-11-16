@@ -1036,12 +1036,963 @@ document.addEventListener('DOMContentLoaded', function () {
 			],
 		},
 		{
-			question: '',
+			question:
+				'Quem é o protagonista principal da série "Cavaleiros do Zodíaco"?',
 			answers: [
-				{ answer: '', correct: false },
-				{ answer: '', correct: true },
-				{ answer: '', correct: false },
-				{ answer: '', correct: false },
+				{ answer: 'Shiryu', correct: false },
+				{ answer: 'Seiya', correct: true },
+				{ answer: 'Hyoga', correct: false },
+				{ answer: 'Ikki', correct: false },
+			],
+		},
+		{
+			question: 'Qual é a constelação de Shun, o Cavaleiro de ...?',
+			answers: [
+				{ answer: 'Leão', correct: false },
+				{ answer: 'Andrômeda', correct: true },
+				{ answer: 'Pégaso', correct: false },
+				{ answer: 'Cisne', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome do mestre que treina os Cavaleiros de Bronze no Santuário em "Os cavalheiros do Zodiaco"?',
+			answers: [
+				{ answer: 'Aiolia', correct: false },
+				{ answer: 'Shion', correct: true },
+				{ answer: 'Saga', correct: false },
+				{ answer: 'Ares', correct: false },
+			],
+		},
+		{
+			question:
+				'Quem é o irmão mais velho de Shun em os cavaleiros do zodiaco?',
+			answers: [
+				{ answer: 'Shiryu', correct: false },
+				{ answer: 'Ikki', correct: true },
+				{ answer: 'Hyoga', correct: false },
+				{ answer: 'Seiya ', correct: false },
+			],
+		},
+		{
+			question:
+				'Em que saga os Cavaleiros de Ouro se sacrificam para permitir que Seiya e seus amigos alcancem o Santuário?',
+			answers: [
+				{ answer: 'Saga de Asgard', correct: false },
+				{ answer: 'Saga de Hades', correct: true },
+				{ answer: 'Saga do Santuário', correct: false },
+				{ answer: 'Saga de Poseidon', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome da técnica secreta de Ikki, o Cavaleiro de Fênix, que cria uma ilusão de morte no adversário?',
+			answers: [
+				{ answer: 'Ave Fênix', correct: false },
+				{ answer: 'Golpe Fantasma', correct: true },
+				{ answer: 'Ilusão de Fênix', correct: false },
+				{ answer: 'Ilusão da Morte', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o elemento associado a Hyoga, o Cavaleiro de Cisne?',
+			answers: [
+				{ answer: 'Fogo', correct: false },
+				{ answer: 'Gelo', correct: true },
+				{ answer: 'Água', correct: false },
+				{ answer: 'Vento', correct: false },
+			],
+		},
+		{
+			question:
+				'Quem é o Cavaleiro de Ouro de Gêmeos, que tem uma personalidade dupla?',
+			answers: [
+				{ answer: 'Aiolia', correct: false },
+				{ answer: 'Saga', correct: true },
+				{ answer: 'Shura', correct: false },
+				{ answer: 'Camus', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome do inimigo divino enfrentado pelos Cavaleiros de Bronze na saga dos campos elisios em "Os cavalheiros do Zodiaco"?',
+			answers: [
+				{ answer: 'Poseidon', correct: false },
+				{ answer: 'Hades', correct: true },
+				{ answer: 'Ares', correct: false },
+				{ answer: 'Zeus', correct: false },
+			],
+		},
+		{
+			question:
+				'Na saga de Asgard, os Cavaleiros de Bronze enfrentam os guerreiros de Asgard, liderados por ...?',
+			answers: [
+				{ answer: 'Odin', correct: false },
+				{ answer: 'Hilda', correct: true },
+				{ answer: 'Freyja', correct: false },
+				{ answer: 'Loki', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o nome do protagonista de Hunter x Hunter?',
+			answers: [
+				{ answer: 'Killua Zoldyck', correct: false },
+				{ answer: 'Gon Freecss', correct: true },
+				{ answer: 'Kurapika', correct: false },
+				{ answer: 'Leorio Paradinight', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é a habilidade especial de Killua Zoldyck em "Hunter x Hunter?',
+			answers: [
+				{ answer: 'Nen', correct: false },
+				{ answer: 'Eletricidade', correct: true },
+				{ answer: 'Zetsu', correct: false },
+				{ answer: 'Ren', correct: false },
+			],
+		},
+		{
+			question:
+				'Quem é o antagonista principal na saga "Chimera Ant" de Hunter x Hunter?',
+			answers: [
+				{ answer: 'Hisoka', correct: false },
+				{ answer: 'Meruem', correct: true },
+				{ answer: 'Illumi Zoldyck', correct: false },
+				{ answer: 'Chrollo Lucilfer', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é a motivação principal de Kurapika ao se tornar um Caçador em "Hunter x Hunter?',
+			answers: [
+				{ answer: 'Encontrar o pai desaparecido', correct: false },
+				{ answer: 'Vingar seu clã', correct: true },
+				{ answer: 'Tornar-se o Caçador mais forte', correct: false },
+				{ answer: 'Proteger a Vila da Folha', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome do exame que os personagens principais fazem para se tornarem Caçadores em "Hunter x Hunter?',
+			answers: [
+				{ answer: 'Exame do Nen', correct: false },
+				{ answer: 'Exame Hunter', correct: true },
+				{ answer: 'Exame da Associação', correct: false },
+				{ answer: 'Exame de Seleção de Caçadores', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome do protagonista de One Punch Man, conhecido por derrotar seus inimigos com um único soco?',
+			answers: [
+				{ answer: 'Genos', correct: false },
+				{ answer: 'Saitama', correct: true },
+				{ answer: 'Sonic', correct: false },
+				{ answer: 'Mumen Rider', correct: false },
+			],
+		},
+		{
+			question:
+				'Quem é o ciborgue que se torna discípulo de Saitama e busca vingança contra o monstro que destruiu sua vila em One Punch Man?',
+			answers: [
+				{ answer: 'Sonic', correct: false },
+				{ answer: 'Genos', correct: true },
+				{ answer: 'Mumen Rider', correct: false },
+				{ answer: 'Bang', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome da associação que classifica os heróis em diferentes níveis com base em suas habilidades em One Punch Man?',
+			answers: [
+				{ answer: 'Liga dos Heróis', correct: false },
+				{ answer: 'Associação dos Heróis', correct: true },
+				{ answer: 'Sindicato dos Heróis', correct: false },
+				{ answer: 'Sociedade Heróica', correct: false },
+			],
+		},
+		{
+			question:
+				'Quem é o herói conhecido como "Silver Fang" ou "Bang" em One Punch Man?',
+			answers: [
+				{ answer: 'King', correct: false },
+				{ answer: 'Atomic Samurai', correct: true },
+				{ answer: 'Puri-Puri Prisoner', correct: false },
+				{ answer: 'Metal Bat', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome do vilão alienígena que lidera a invasão à Terra na primeira temporada de One Punch Man?',
+			answers: [
+				{ answer: 'Garou', correct: false },
+				{ answer: 'Boros', correct: true },
+				{ answer: 'Deep Sea King', correct: false },
+				{ answer: 'Carnage Kabuto', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome do protagonista de Death Note, que encontra um caderno capaz de matar qualquer pessoa cujo nome seja escrito nele?',
+			answers: [
+				{ answer: 'L', correct: false },
+				{ answer: 'Light Yagami', correct: true },
+				{ answer: 'Near', correct: false },
+				{ answer: 'Misa Amane', correct: false },
+			],
+		},
+		{
+			question:
+				'Quem é o detetive conhecido por suas peculiaridades e que se torna o principal rival de Light Yagami na tentativa de capturar Kira em Death Note?',
+			answers: [
+				{ answer: 'Near', correct: false },
+				{ answer: 'L', correct: true },
+				{ answer: 'Mello', correct: false },
+				{ answer: 'Ryuk', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome do shinigami que originalmente possui o Death Note que Light encontra?',
+			answers: [
+				{ answer: 'Rem', correct: false },
+				{ answer: 'Ryuk', correct: true },
+				{ answer: 'Kira', correct: false },
+				{ answer: 'Shinigami', correct: false },
+			],
+		},
+		{
+			question:
+				'O que acontece quando alguém escreve o nome de uma pessoa no Death Note?',
+			answers: [
+				{ answer: 'A pessoa se torna imortal', correct: false },
+				{ answer: 'A pessoa morre', correct: true },
+				{ answer: 'A pessoa vira um shinigami', correct: false },
+				{ answer: 'A pessoa perde a memória', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome da organização secreta de detetives criada para capturar Kira em Death Note?',
+			answers: [
+				{ answer: 'SPK', correct: false },
+				{ answer: 'Kira Task Force', correct: true },
+				{ answer: 'Task Force Alpha', correct: false },
+				{ answer: 'Liga Anti-Kira', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome do protagonista de Jujutsu Kaisen, um estudante do ensino médio que se envolve com maldições e jujutsu?',
+			answers: [
+				{ answer: 'Megumi Fushiguro', correct: false },
+				{ answer: 'Yuji Itadori', correct: true },
+				{ answer: 'Satoru Gojo', correct: false },
+				{ answer: 'Nobara Kugisaki', correct: false },
+			],
+		},
+		{
+			question: 'O que é o "Sukuna Ryomen Cursed Object" em Jujutsu Kaisen?',
+			answers: [
+				{ answer: 'Uma escola de jujutsu', correct: false },
+				{ answer: 'Um objeto amaldiçoado', correct: true },
+				{ answer: 'Um feitiço proibido', correct: false },
+				{ answer: 'Uma maldição amaldiçoada', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome do mentor de Yuji Itadori e um dos professores da Escola Técnica Metropolitana de Jujutsu?',
+			answers: [
+				{ answer: 'Kento Nanami', correct: false },
+				{ answer: 'Satoru Gojo', correct: true },
+				{ answer: 'Masamichi Yaga', correct: false },
+				{ answer: 'Suguru Geto', correct: false },
+			],
+		},
+		{
+			question:
+				'Quem é o líder da organização maligna conhecida como "Olho da Maldição" em Jujutsu Kaisen?',
+			answers: [
+				{ answer: 'Sukuna Ryomen', correct: false },
+				{ answer: 'Mahito', correct: true },
+				{ answer: 'Toji Fushiguro', correct: false },
+				{ answer: 'Jogo Hanami', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é a habilidade especial de Megumi Fushiguro em Jujutsu Kaisen?',
+			answers: [
+				{ answer: 'Transmutação', correct: false },
+				{ answer: 'Controle de Besta', correct: true },
+				{ answer: 'Manipulação de Terra', correct: false },
+				{ answer: 'Técnica de Sombra', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o nome do protagonista principal de Dragon Ball?',
+			answers: [
+				{ answer: 'Vegeta', correct: false },
+				{ answer: 'Goku', correct: true },
+				{ answer: 'Gohan', correct: false },
+				{ answer: 'Piccolo', correct: false },
+			],
+		},
+		{
+			question: 'Qual é a técnica especial usada por Goku em Dragon Ball?',
+			answers: [
+				{ answer: 'Solar Flare', correct: false },
+				{ answer: 'Kamehameha', correct: true },
+				{ answer: 'Instant Transmission', correct: false },
+				{ answer: 'Spirit Bomb', correct: false },
+			],
+		},
+		{
+			question: 'Quem é o príncipe da raça Saiyajin em Dragon Ball?',
+			answers: [
+				{ answer: 'Goku', correct: false },
+				{ answer: 'Vegeta', correct: true },
+				{ answer: 'Raditz', correct: false },
+				{ answer: 'Nappa', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome do mentor de Goku que o ensina a usar o Kamehameha?',
+			answers: [
+				{ answer: 'Kami', correct: false },
+				{ answer: 'Mestre Roshi', correct: true },
+				{ answer: 'King Kai', correct: false },
+				{ answer: 'Korin', correct: false },
+			],
+		},
+		{
+			question: 'Quem é o vilão principal na Saga Freeza de Dragon Ball Z?',
+			answers: [
+				{ answer: 'Cell', correct: false },
+				{ answer: 'Freeza', correct: true },
+				{ answer: 'Cooler', correct: false },
+				{ answer: 'Majin Buu', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome da técnica de fusão que Goku e Vegeta usam para se tornar um guerreiro mais poderoso?',
+			answers: [
+				{ answer: 'Spirit Fusion', correct: false },
+				{ answer: 'Potara Fusion', correct: true },
+				{ answer: 'Fusion Dance', correct: false },
+				{ answer: 'Fusion Reborn', correct: false },
+			],
+		},
+		{
+			question:
+				'Quem é o androide criado pelo Dr. Gero para destruir Goku em Dragon Ball Z?',
+			answers: [
+				{ answer: 'Android 16', correct: false },
+				{ answer: 'Android 19', correct: true },
+				{ answer: 'Android 18', correct: false },
+				{ answer: 'Android 17', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o nome do planeta natal dos Saiyajins em Dragon Ball?',
+			answers: [
+				{ answer: 'Namek', correct: false },
+				{ answer: 'Vegeta', correct: true },
+				{ answer: 'Earth', correct: false },
+				{ answer: 'Frieza', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome da técnica de Piccolo que se torna uma das mais icônicas em Dragon Ball?',
+			answers: [
+				{ answer: 'Destructo Disc', correct: false },
+				{ answer: 'Special Beam Cannon', correct: true },
+				{ answer: 'Hellzone Grenade', correct: false },
+				{ answer: 'Makankosappo', correct: false },
+			],
+		},
+		{
+			question: 'Quem é o filho mais velho de Goku em Dragon Ball Z?',
+			answers: [
+				{ answer: 'Goten', correct: false },
+				{ answer: 'Gohan', correct: true },
+				{ answer: 'Trunks', correct: false },
+				{ answer: 'Raditz', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome do protagonista de Attack on Titan que busca vingança contra os Titãs após testemunhar a destruição de sua cidade?',
+			answers: [
+				{ answer: 'Mikasa Ackerman', correct: false },
+				{ answer: 'Eren Yeager', correct: true },
+				{ answer: 'Armin Arlert', correct: false },
+				{ answer: 'Levi Ackerman', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome da cidade cercada por enormes muralhas para proteger os humanos dos Titãs em Attack on Titan?',
+			answers: [
+				{ answer: 'Marley', correct: false },
+				{ answer: 'Paradis', correct: true },
+				{ answer: 'Trost', correct: false },
+				{ answer: 'Shiganshina', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome do esquadrão de elite especializado em matar Titãs, liderado por Captain Levi?',
+			answers: [
+				{ answer: 'Esquadrão Antititã', correct: false },
+				{ answer: 'Esquadrão de Reconhecimento', correct: true },
+				{ answer: 'Tropa de Guerra', correct: false },
+				{ answer: 'Esquadrão de Limpeza', correct: false },
+			],
+		},
+		{
+			question:
+				'Quem é a Titã Encouraçada, um dos soldados transformados em Titãs durante a invasão inicial em Attack on Titan?',
+			answers: [
+				{ answer: 'Annie Leonhart', correct: false },
+				{ answer: 'Reiner Braun', correct: true },
+				{ answer: 'Bertolt Hoover', correct: false },
+				{ answer: 'Historia Reiss', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome da cidade natal de Eren Yeager, que é destruída pelo Titã Colossal no início de Attack on Titan?',
+			answers: [
+				{ answer: 'Marley', correct: false },
+				{ answer: 'Shiganshina', correct: true },
+				{ answer: 'Trost', correct: false },
+				{ answer: 'Liberio', correct: false },
+			],
+		},
+		{
+			question: 'Qual é a habilidade especial de Hinata Hyuga em Naruto?',
+			answers: [
+				{ answer: 'Sharingan', correct: false },
+				{ answer: 'Byakugan', correct: true },
+				{ answer: 'Rinnegan', correct: false },
+				{ answer: 'Jūken', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome da aldeia oculta de Gaara, o Kazekage, em Naruto?',
+			answers: [
+				{ answer: 'Vila Oculta da Folha (Konoha)', correct: false },
+				{ answer: 'Vila Oculta da Areia (Sunagakure)', correct: true },
+				{ answer: 'Vila Oculta da Névoa (Kirigakure)', correct: false },
+				{ answer: 'Vila Oculta da Pedra (Iwagakure)', correct: false },
+			],
+		},
+		{
+			question: 'Quem é o líder da Akatsuki em Naruto?',
+			answers: [
+				{ answer: 'Itachi Uchiha', correct: false },
+				{ answer: 'Pain', correct: true },
+				{ answer: 'Kisame Hoshigaki', correct: false },
+				{ answer: 'Madara Uchiha', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é a besta com cauda selada dentro de Naruto, concedendo-lhe o chakra da Kyuubi?',
+			answers: [
+				{ answer: 'Shukaku', correct: false },
+				{ answer: 'Kurama', correct: true },
+				{ answer: 'Son Goku', correct: false },
+				{ answer: 'Matatabi', correct: false },
+			],
+		},
+		{
+			question: 'Quem é o mentor de Naruto e o ex-líder da Equipe 7?',
+			answers: [
+				{ answer: 'Jiraiya', correct: false },
+				{ answer: 'Kakashi Hatake', correct: true },
+				{ answer: 'Hiruzen Sarutobi', correct: false },
+				{ answer: 'Minato Namikaze', correct: false },
+			],
+		},
+		{
+			question: 'Qual é a habilidade especial de Sasuke Uchiha em Naruto?',
+			answers: [
+				{ answer: 'Rasengan', correct: false },
+				{ answer: 'Sharingan', correct: true },
+				{ answer: 'Byakugan', correct: false },
+				{ answer: 'Chidori', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o nome do sensei de Kakashi Hatake em naruto',
+			answers: [
+				{ answer: 'Hiruzen Sarutobi', correct: false },
+				{ answer: 'Minato Namikaze', correct: true },
+				{ answer: 'Obito Uchiha', correct: false },
+				{ answer: 'Itachi Uchiha', correct: false },
+			],
+		},
+		{
+			question: 'Qual é a aldeia ninja natal de Naruto?',
+			answers: [
+				{ answer: 'Vila Oculta da Folha (Konoha)', correct: true },
+				{ answer: 'Vila Oculta da Areia (Sunagakure)', correct: false },
+				{ answer: 'Vila Oculta da Névoa (Kirigakure)', correct: false },
+				{ answer: 'Vila Oculta da Pedra (Iwagakure)', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é a técnica de invocação de Naruto que permite que ele chame sapos gigantes para ajudá-lo em batalha?',
+			answers: [
+				{ answer: 'Kage Bunshin no Jutsu', correct: false },
+				{ answer: 'Kuchiyose no Jutsu', correct: true },
+				{ answer: 'Sennin Mode', correct: false },
+				{ answer: 'Rasengan', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o nome da espada de Zabuza Momochi em Naruto?',
+			answers: [
+				{ answer: 'Hiramekarei', correct: false },
+				{ answer: 'Kubikiribōchō', correct: true },
+				{ answer: 'Samehada', correct: false },
+				{ answer: 'Kusanagi', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome da competição entre equipes de demônios na qual Yusuke Urameshi e seus amigos participam em Yu Yu Hakusho?',
+			answers: [
+				{ answer: 'Torneio das sombras', correct: false },
+				{ answer: 'Torneio das trevas', correct: true },
+				{ answer: 'Torneio da morte', correct: false },
+				{ answer: 'Torneio dos zumbis', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome do protagonista de Yu Yu Hakusho, um adolescente que morre ao salvar uma criança e depois é ressuscitado como um Detetive Sobrenatural?',
+			answers: [
+				{ answer: 'Hiei', correct: false },
+				{ answer: 'Yusuke Urameshi', correct: true },
+				{ answer: 'Kurama', correct: false },
+				{ answer: 'Kuwabara', correct: false },
+			],
+		},
+		{
+			question:
+				'Quem é o mestre espiritual de Yusuke Urameshi que o orienta no Mundo Espiritual?',
+			answers: [
+				{ answer: 'Genkai', correct: false },
+				{ answer: 'Koenma', correct: true },
+				{ answer: 'Botan', correct: false },
+				{ answer: 'Puu', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é a técnica especial de Hiei em Yu Yu Hakusho, que envolve a manipulação de chamas negras?',
+			answers: [
+				{ answer: 'Spirit Gun', correct: false },
+				{ answer: 'Dragon of the Darkness Flame', correct: true },
+				{ answer: 'Spirit Wave', correct: false },
+				{ answer: 'Rose Whip', correct: false },
+			],
+		},
+		{
+			question:
+				'Quem é o meio-demon Kurama em sua forma humana em Yu Yu Hakusho?',
+			answers: [
+				{ answer: 'Shishiwakamaru', correct: false },
+				{ answer: 'Youko Kurama', correct: true },
+				{ answer: 'Karasu', correct: false },
+				{ answer: 'Kuronue', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome do protagonista de Demon Slayer, cuja família é massacrada por demônios, e sua irmã Nezuko é transformada em um demônio?',
+			answers: [
+				{ answer: 'Zenitsu Agatsuma', correct: false },
+				{ answer: 'Tanjiro Kamado', correct: true },
+				{ answer: 'Inosuke Hashibira', correct: false },
+				{ answer: 'Giyu Tomioka', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é a respiração (estilo de luta) principal de Tanjiro Kamado em Demon Slayer?',
+			answers: [
+				{ answer: 'Respiração da Água', correct: false },
+				{ answer: 'Respiração do Fogo', correct: true },
+				{ answer: 'Respiração do Vento', correct: false },
+				{ answer: 'Respiração do Trovão', correct: false },
+			],
+		},
+		{
+			question:
+				'Quem é o Hashira (Pilar) que utiliza a Respiração da Água em Demon Slayer?',
+			answers: [
+				{ answer: 'Kanao Tsuyuri', correct: false },
+				{ answer: 'Giyu Tomioka', correct: true },
+				{ answer: 'Shinobu Kocho', correct: false },
+				{ answer: 'Sanemi Shinazugawa', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome do vilão principal, líder dos Onis, em Demon Slayer?',
+			answers: [
+				{ answer: 'Enmu', correct: false },
+				{ answer: 'Muzan Kibutsuji', correct: true },
+				{ answer: 'Akaza', correct: false },
+				{ answer: 'Rui', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome da técnica especial de Zenitsu Agatsuma em Demon Slayer, que é uma das Doze Técnicas da Respiração do Trovão?',
+			answers: [
+				{ answer: 'Eleventh Form: Dead Calm', correct: false },
+				{ answer: 'Third Form: Thunderclap and Flash', correct: true },
+				{ answer: 'Twelfth Form: Thunderbolt', correct: false },
+				{ answer: 'Fourth Form: Thunder Beast', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome do protagonista de One Piece, que busca se tornar o Rei dos Piratas?',
+			answers: [
+				{ answer: 'Roronoa Zoro', correct: false },
+				{ answer: 'Monkey D. Luffy', correct: true },
+				{ answer: 'Nami', correct: false },
+				{ answer: 'Sanji', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o nome da tripulação de Monkey D. Luffy em One Piece?',
+			answers: [
+				{ answer: 'Os Revolucionários', correct: false },
+				{ answer: 'Os Piratas do Sol', correct: false },
+				{ answer: 'Os Chapéus de Palha', correct: true },
+				{ answer: 'A Marinha', correct: false },
+			],
+		},
+		{
+			question:
+				'Quem é o espadachim que sonha em se tornar o maior espadachim do mundo em One Piece?',
+			answers: [
+				{ answer: 'Usopp', correct: false },
+				{ answer: 'Roronoa Zoro', correct: true },
+				{ answer: 'Nico Robin', correct: false },
+				{ answer: 'Franky', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o nome do barco dos Chapéus de Palha em One Piece?',
+			answers: [
+				{ answer: 'Red Force', correct: false },
+				{ answer: 'Thousand Sunny', correct: true },
+				{ answer: 'Oro Jackson', correct: false },
+				{ answer: 'Going Merry', correct: false },
+			],
+		},
+		{
+			question:
+				'Quem é o arqueólogo da tripulação dos Chapéus de Palha em One Piece?',
+			answers: [
+				{ answer: 'Tony Tony Chopper', correct: false },
+				{ answer: 'Nico Robin', correct: true },
+				{ answer: 'Brook', correct: false },
+				{ answer: 'Vinsmoke Sanji', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome do capitão dos Piratas do Barba Branca em One Piece?',
+			answers: [
+				{ answer: 'Gol D. Roger', correct: false },
+				{ answer: 'Edward Newgate', correct: true },
+				{ answer: 'Monkey D. Garp', correct: false },
+				{ answer: 'Marshall D. Teach', correct: false },
+			],
+		},
+		{
+			question:
+				'Quem é o cozinheiro da tripulação dos Chapéus de Palha em One Piece?',
+			answers: [
+				{ answer: 'Brook', correct: false },
+				{ answer: 'Sanji', correct: true },
+				{ answer: 'Franky', correct: false },
+				{ answer: 'Jinbe', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o nome da fruta do diabo que Luffy come em One Piece?',
+			answers: [
+				{ answer: 'Mera Mera no Mi', correct: false },
+				{ answer: 'Gomu Gomu no Mi', correct: true },
+				{ answer: 'Hito Hito no Mi', correct: false },
+				{ answer: 'Ope Ope no Mi', correct: false },
+			],
+		},
+		{
+			question:
+				'Quem é o arqueiro da tripulação dos Chapéus de Palha em One Piece?',
+			answers: [
+				{ answer: 'Nami', correct: false },
+				{ answer: 'Usopp', correct: true },
+				{ answer: 'Tony Tony Chopper', correct: false },
+				{ answer: 'Vinsmoke Sanji', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome da ilha onde nasceu e foi executado Gol D. Roger em One Piece?',
+			answers: [
+				{ answer: 'Water 7', correct: false },
+				{ answer: 'Loguetown', correct: true },
+				{ answer: 'Marineford', correct: false },
+				{ answer: 'Reverse Mountain', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o nome do protagonista de Bleach?',
+			answers: [
+				{ answer: 'Ichigo Kurosaki', correct: true },
+				{ answer: 'Rukia Kuchiki', correct: false },
+				{ answer: 'Orihime Inoue', correct: false },
+				{ answer: 'Uryu Ishida', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o nome da espada de Ichigo Kurosaki?',
+			answers: [
+				{ answer: 'Zangetsu', correct: true },
+				{ answer: 'Tensa Zangetsu', correct: false },
+				{ answer: 'Hollow Ichigo', correct: false },
+				{ answer: 'Mugetsu', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o nome do capitão da 10ª Divisão do Gotei 13?',
+			answers: [
+				{ answer: 'Kenpachi Zaraki', correct: true },
+				{ answer: 'Byakuya Kuchiki', correct: false },
+				{ answer: 'Mayuri Kurotsuchi', correct: false },
+				{ answer: 'Shunsui Kyōraku', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o nome do líder dos Arrancars?',
+			answers: [
+				{ answer: 'Sōsuke Aizen', correct: true },
+				{ answer: 'Yammy Llargo', correct: false },
+				{ answer: 'Ulquiorra Cifer', correct: false },
+				{ answer: 'Baraggan Louisenbairn', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o nome do bankai de Ichigo Kurosaki?',
+			answers: [
+				{ answer: 'Tensa Zangetsu', correct: true },
+				{ answer: 'Hollow Ichigo', correct: false },
+				{ answer: 'Mugetsu', correct: false },
+				{ answer: 'Fraccionar', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o nome do personagem principal de Samurai X?',
+			answers: [
+				{ answer: 'Kenshin Himura', correct: true },
+				{ answer: 'Shishio Makoto', correct: false },
+				{ answer: 'Aoshi Shinomori', correct: false },
+				{ answer: 'Makoto Shishio', correct: false },
+			],
+		},
+		{
+			question: 'O que Kenshin Himura jura fazer após a Guerra Boshin?',
+			answers: [
+				{ answer: 'Nunca mais matar', correct: true },
+				{ answer: 'Vencer a Guerra Boshin', correct: false },
+				{ answer: 'Proteger o Japão', correct: false },
+				{ answer: 'Juntar-se a Shishio Makoto', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o nome da espada de Kenshin Himura?',
+			answers: [
+				{ answer: 'Sakabatō', correct: true },
+				{ answer: 'Himura', correct: false },
+				{ answer: 'Hiten Mitsurugi-ryū', correct: false },
+				{ answer: 'Juppongatana', correct: false },
+			],
+		},
+		{
+			question: 'Quem é o principal antagonista de Samurai X?',
+			answers: [
+				{ answer: 'Shishio Makoto', correct: true },
+				{ answer: 'Kenshin Himura', correct: false },
+				{ answer: 'Aoshi Shinomori', correct: false },
+				{ answer: 'Makoto Shishio', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o nome da organização que Shishio Makoto criou?',
+			answers: [
+				{ answer: 'Juppongatana', correct: true },
+				{ answer: 'Hiten Mitsurugi-ryū', correct: false },
+				{ answer: 'Sakabatō', correct: false },
+				{ answer: 'Kenshin Himura', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o Pokémon inicial oferecido pelo Professor Carvalho em Kanto?',
+			answers: [
+				{ answer: 'Bulbasaur', correct: false },
+				{ answer: 'Charmander', correct: false },
+				{ answer: 'Squirtle', correct: true },
+				{ answer: 'Pikachu', correct: false },
+			],
+		},
+		{
+			question: 'Quem é o líder da Equipe Rocket em Pokémon?',
+			answers: [
+				{ answer: 'Jessie', correct: false },
+				{ answer: 'James', correct: false },
+				{ answer: 'Meowth', correct: false },
+				{ answer: 'Giovanni', correct: true },
+			],
+		},
+		{
+			question: 'Qual é o tipo principal do Pokémon Pikachu?',
+			answers: [
+				{ answer: 'Fogo', correct: false },
+				{ answer: 'Água', correct: false },
+				{ answer: 'Elétrico', correct: true },
+				{ answer: 'Grama', correct: false },
+			],
+		},
+		{
+			question: 'Qual é a evolução final do Pokémon inicial Bulbasaur?',
+			answers: [
+				{ answer: 'Ivysaur', correct: false },
+				{ answer: 'Venusaur', correct: true },
+				{ answer: 'Charizard', correct: false },
+				{ answer: 'Blastoise', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o lendário mascote da versão Pokémon Red?',
+			answers: [
+				{ answer: 'Mew', correct: false },
+				{ answer: 'Articuno', correct: false },
+				{ answer: 'Zapdos', correct: false },
+				{ answer: 'Mewtwo', correct: true },
+			],
+		},
+		{
+			question: 'Qual é a região explorada nos jogos Pokémon Ruby e Sapphire?',
+			answers: [
+				{ answer: 'Kanto', correct: false },
+				{ answer: 'Johto', correct: false },
+				{ answer: 'Hoenn', correct: true },
+				{ answer: 'Sinnoh', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o líder da Equipe Aqua em Pokémon Ruby e Sapphire?',
+			answers: [
+				{ answer: 'Archie', correct: true },
+				{ answer: 'Maxie', correct: false },
+				{ answer: 'Tabitha', correct: false },
+				{ answer: 'Shelly', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o lendário mascote da versão Pokémon Blue?',
+			answers: [
+				{ answer: 'Mew', correct: false },
+				{ answer: 'Articuno', correct: true },
+				{ answer: 'Zapdos', correct: false },
+				{ answer: 'Mewtwo', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o Pokémon inicial oferecido pelo Professor Rowan em Sinnoh?',
+			answers: [
+				{ answer: 'Chimchar', correct: false },
+				{ answer: 'Piplup', correct: true },
+				{ answer: 'Turtwig', correct: false },
+				{ answer: 'Buizel', correct: false },
+			],
+		},
+		{
+			question:
+				'Quem é o campeão da Liga Pokémon em Kanto nos jogos originais?',
+			answers: [
+				{ answer: 'Blue', correct: false },
+				{ answer: 'Lance', correct: false },
+				{ answer: 'Red', correct: true },
+				{ answer: 'Steven', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o nome do protagonista de "Tokyo Revengers"?',
+			answers: [
+				{ answer: 'Takemichi Hanagaki', correct: true },
+				{ answer: 'Draken', correct: false },
+				{ answer: 'Takashi Mitsuya', correct: false },
+				{ answer: 'Mikey', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o nome do  lider da Tomam em "Tokyo Revengers"?',
+			answers: [
+				{ answer: 'Takemichi Hanagaki', correct: false },
+				{ answer: 'Draken', correct: false },
+				{ answer: 'Takashi Mitsuya', correct: false },
+				{ answer: 'Mikey', correct: true },
+			],
+		},
+		{
+			question: 'Quem é conhecido como o "Ninja Cop" em "Cowboy Bebop"?',
+			answers: [
+				{ answer: 'Spike Spiegel', correct: true },
+				{ answer: 'Edward Wong Hau Pepelu Tivrusky IV', correct: false },
+				{ answer: 'Jet Black', correct: false },
+				{ answer: 'Faye Valentine', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o título completo de "Fullmetal Alchemist: Brotherhood"?',
+			answers: [
+				{ answer: 'Fullmetal Alchemist: Resurrection', correct: false },
+				{ answer: 'Fullmetal Alchemist: Redemption', correct: false },
+				{ answer: 'Fullmetal Alchemist: Brotherhood', correct: true },
+				{ answer: 'Fullmetal Alchemist: Evolution', correct: false },
+			],
+		},
+		{
+			question:
+				'Em "Tokyo Revengers", qual é o nome da namorada do personagem principal?',
+			answers: [
+				{ answer: 'Sakura Haruno', correct: false },
+				{ answer: 'Rukia Kuchiki', correct: false },
+				{ answer: 'Hinata Tachibana', correct: true },
+				{ answer: 'Orihime Inoue', correct: false },
 			],
 		},
 	];
@@ -1132,7 +2083,8 @@ document.addEventListener('DOMContentLoaded', function () {
 			{ answer: '', correct: false },
 			{ answer: '', correct: false },
 		],
-	}, */
+	}, 
+	*/
 	// substituição do quizz para a primeira pergunta
 	function init() {
 		// Limpar tela antes de iniciar um novo jogo
@@ -1173,17 +2125,17 @@ document.addEventListener('DOMContentLoaded', function () {
 					init();
 					hideBegin();
 				} else if (themeId === 'anime') {
-					questions = anime;
+					questions = randomQuestions(anime, 10);
 					showMessage();
 					init();
 					hideBegin();
 				} else if (themeId === 'serie') {
-					questions = serie;
+					questions = randomQuestions(serie, 10);
 					showMessage();
 					init();
 					hideBegin();
 				} else if (themeId === 'esportes') {
-					questions = esportes;
+					questions = randomQuestions(esportes, 10);
 					showMessage();
 					init();
 					hideBegin();
