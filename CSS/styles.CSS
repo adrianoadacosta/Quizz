@@ -13,6 +13,12 @@ body {
 .hide {
 	display: none !important;
 }
+#ready {
+	padding: 25px 0;
+	text-align: center;
+	position: relative;
+	top: 130px;
+}
 #main-title {
 	padding: 40px 0;
 	text-align: center;
@@ -30,8 +36,10 @@ body {
 	padding: 25px;
 	border-radius: 20px;
 }
-#score-container p {
-	font-size: 14px;
+#score-container p,
+#question-container p {
+	font-size: 18px;
+	text-align: center;
 	margin: 20px 0;
 }
 #score-container #display-score {
@@ -65,7 +73,8 @@ body {
 	color: #e78230;
 }
 /* QUIZZ */
-#quizz-container {
+#quizz-container,
+#question-container {
 	width: 500px;
 	margin: 50px auto;
 	border: 1px solid #cddde8;
@@ -95,7 +104,28 @@ body {
 	cursor: pointer;
 	transition: 0.5s;
 }
-#answers-box button:hover {
+#questions-box button {
+	display: flex;
+	align-items: center;
+	margin: 15px 100px;
+	width: 250px;
+	height: 50px;
+	border-radius: 25px;
+	background-color: #cddde8;
+	border: 2px solid transparent;
+	text-align: center;
+	padding-left: 5px;
+	color: #000;
+	cursor: pointer;
+	transition: 0.5s;
+}
+#questions-box .question {
+	flex: 1 1 0;
+	margin-left: 10px;
+	font-size: 16px;
+}
+#answers-box button:hover,
+#questions-box button:hover {
 	background-color: #e78230;
 	color: #fff;
 }
@@ -139,11 +169,13 @@ body {
 
 /* RESPONSIVO */
 @media (max-width: 450px) {
-	#quizz-container {
+	#quizz-container,
+	#question-container {
 		border: none;
 		width: 100%;
 	}
-	#answers-box button {
+	#answers-box button,
+	#question-container button {
 		width: 100%;
 	}
 	#score-container {
@@ -155,12 +187,15 @@ body {
 		padding: 20px 0;
 		width: 325px;
 	}
-	#quizz-container {
+	#quizz-container,
+	#question-container {
 		border: none;
 		width: 100%;
 	}
-	#answer-box button {
+	#answer-box button,
+	#question-container button {
 		width: 100%;
+		margin: 10px;
 	}
 	#score-container {
 		width: 80%;

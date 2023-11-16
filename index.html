@@ -14,8 +14,58 @@
 			href="CSS/styles.CSS"
 		/>
 	</head>
+	<link
+		rel="icon"
+		href="img/icon.ico"
+		type="image/x-icon"
+	/>
 	<body>
 		<h1 id="main-title">Quizz</h1>
+		<!-- MSG ESTA PREPARADO -->
+		<h2
+			id="ready"
+			class="hide"
+		>
+			PREPARADO
+		</h2>
+		<!-- BOARD DE ESCOLHA DO TEMA DAS PERGUNTAS -->
+		<div
+			id="question-container"
+			class=""
+		>
+			<p>Escolha o tema das perguntas</p>
+			<div id="questions-box">
+				<button>
+					<span
+						class="question"
+						id="cinema"
+						>Cinema</span
+					>
+				</button>
+				<button>
+					<span
+						class="question"
+						id="anime"
+						>Anime</span
+					>
+				</button>
+				<button>
+					<span
+						class="question"
+						id="serie"
+						>Serie</span
+					>
+				</button>
+				<button>
+					<span
+						class="question"
+						id="esportes"
+						>Esportes</span
+					>
+				</button>
+			</div>
+		</div>
+
 		<!-- SCORE BOARD -->
 		<div
 			id="score-container"
@@ -32,8 +82,8 @@
 		<!-- QUIZ -->
 		<div id="quizz-container">
 			<p id="question">
-				<span id="question-number">1</span> -
-				<span id="question-text">qual a unidade de medida para metros?</span>
+				<span id="question-number"></span> 
+				<span id="question-text"></span>
 			</p>
 			<div id="answers-box">
 				<button>
