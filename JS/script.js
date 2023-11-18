@@ -3049,27 +3049,964 @@ document.addEventListener('DOMContentLoaded', function () {
 			],
 		},
 		{
-			question: '',
+			question: 'Qual país venceu a primeira Copa do Mundo de Futebol em 1930?',
 			answers: [
-				{ answer: '', correct: false },
-				{ answer: '', correct: true },
-				{ answer: '', correct: false },
-				{ answer: '', correct: false },
+				{ answer: 'Alemanha', correct: false },
+				{ answer: 'Uruguai', correct: true },
+				{ answer: 'Brasil', correct: false },
+				{ answer: 'Argentina', correct: false },
+			],
+		},
+		{
+			question:
+				'Em que ano o Brasil venceu a Copa do Mundo pela primeira vez e em que lugar?',
+			answers: [
+				{ answer: '1954 no Mexico', correct: false },
+				{ answer: '1962 na Italia', correct: false },
+				{ answer: '1958 na Suecia', correct: true },
+				{ answer: '1958 na Suiça', correct: false },
+			],
+		},
+		{
+			question: 'Quem é o artilheiro de todas as Copas do Mundo, com 15 gols?',
+			answers: [
+				{ answer: 'Pelé', correct: false },
+				{ answer: 'Miroslav Klose', correct: true },
+				{ answer: 'Ronaldo Nazário', correct: false },
+				{ answer: 'Gerd Müller', correct: false },
+			],
+		},
+		{
+			question: 'Qual seleção nacional venceu a Copa do Mundo mais vezes?',
+			answers: [
+				{ answer: 'Alemanha', correct: false },
+				{ answer: 'Brasil', correct: true },
+				{ answer: 'Itália', correct: false },
+				{ answer: 'Argentina', correct: false },
+			],
+		},
+		{
+			question: 'Em qual país foi realizada a Copa do Mundo de 2018?',
+			answers: [
+				{ answer: 'Rússia', correct: true },
+				{ answer: 'França', correct: false },
+				{ answer: 'Brasil', correct: false },
+				{ answer: 'Alemanha', correct: false },
+			],
+		},
+		{
+			question:
+				'Quantas seleções nacionais participam da fase final da Copa do Mundo?',
+			answers: [
+				{ answer: '24', correct: false },
+				{ answer: '32', correct: true },
+				{ answer: '16', correct: false },
+				{ answer: '20', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual jogador recebeu o prêmio de Melhor Jogador da Copa do Mundo de 2018?',
+			answers: [
+				{ answer: 'Cristiano Ronaldo', correct: false },
+				{ answer: 'Kylian Mbappé', correct: true },
+				{ answer: 'Luka Modric', correct: false },
+				{ answer: 'Neymar', correct: false },
+			],
+		},
+		{
+			question: 'Em quantas Copas do Mundo o Brasil já participou até 2022?',
+			answers: [
+				{ answer: '18', correct: false },
+				{ answer: '20', correct: false },
+				{ answer: '22', correct: false },
+				{ answer: '21', correct: true },
+			],
+		},
+		{
+			question: 'Qual seleção nacional foi a campeã da Copa do Mundo de 2014?',
+			answers: [
+				{ answer: 'Espanha', correct: false },
+				{ answer: 'Alemanha', correct: true },
+				{ answer: 'Brasil', correct: false },
+				{ answer: 'Argentina', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o único país que participou de todas as Copas do Mundo desde o início?',
+			answers: [
+				{ answer: 'Brasil', correct: true },
+				{ answer: 'Alemanha', correct: false },
+				{ answer: 'Itália', correct: false },
+				{ answer: 'Argentina', correct: false },
+			],
+		},
+		{
+			question: 'Em que ano o Grêmio foi fundado?',
+			answers: [
+				{ answer: '1903', correct: true },
+				{ answer: '1910', correct: false },
+				{ answer: '1921', correct: false },
+				{ answer: '1935', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o estádio principal do Grêmio?',
+			answers: [
+				{ answer: 'Beira-Rio', correct: false },
+				{ answer: 'Arena Corinthians', correct: false },
+				{ answer: 'Arena do Grêmio', correct: true },
+				{ answer: 'Maracanã', correct: false },
+			],
+		},
+		{
+			question:
+				'Quantas vezes o Grêmio conquistou a Taça Libertadores da América até 2022?',
+			answers: [
+				{ answer: '2', correct: false },
+				{ answer: '3', correct: true },
+				{ answer: '1', correct: false },
+				{ answer: '4', correct: false },
+			],
+		},
+		{
+			question: 'Qual jogador é conhecido como "Rei de Copas" no Grêmio?',
+			answers: [
+				{ answer: 'Renato Portaluppi', correct: true },
+				{ answer: 'Ronaldinho Gaúcho', correct: false },
+				{ answer: 'André Cechinel', correct: false },
+				{ answer: 'Lucas Leiva', correct: false },
+			],
+		},
+		{
+			question: 'Em que ano o Grêmio venceu a sua primeira Taça Libertadores?',
+			answers: [
+				{ answer: '1983', correct: true },
+				{ answer: '1995', correct: false },
+				{ answer: '1977', correct: false },
+				{ answer: '2001', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o apelido do Grêmio?',
+			answers: [
+				{ answer: 'Colorado', correct: false },
+				{ answer: 'Tricolor', correct: true },
+				{ answer: 'Alviverde', correct: false },
+				{ answer: 'Rubro-Negro', correct: false },
+			],
+		},
+		{
+			question: 'Quem é o maior artilheiro da história do Grêmio?',
+			answers: [
+				{ answer: 'Luizão', correct: false },
+				{ answer: 'Jardel', correct: true },
+				{ answer: 'Renato Portaluppi', correct: false },
+				{ answer: 'Ronaldinho Gaúcho', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual treinador conduziu o Grêmio à conquista da Copa do Mundo de Clubes da FIFA em 1983?',
+			answers: [
+				{ answer: 'Renato Portaluppi', correct: false },
+				{ answer: 'Luiz Felipe Scolari', correct: false },
+				{ answer: 'Eurico Lara', correct: false },
+				{ answer: 'Valdir Espinosa', correct: true },
+			],
+		},
+		{
+			question:
+				'Quantos títulos da Copa do Brasil o Grêmio conquistou até 2022?',
+			answers: [
+				{ answer: '3', correct: true },
+				{ answer: '5', correct: false },
+				{ answer: '2', correct: false },
+				{ answer: '1', correct: false },
+			],
+		},
+		{
+			question: 'Qual jogador gremista é conhecido como "O Mago"?',
+			answers: [
+				{ answer: 'Luan', correct: true },
+				{ answer: 'André Cechinel', correct: false },
+				{ answer: 'Everton Cebolinha', correct: false },
+				{ answer: 'Geromel', correct: false },
+			],
+		},
+		{
+			question: 'Em que ano o Internacional foi fundado?',
+			answers: [
+				{ answer: '1909', correct: true },
+				{ answer: '1912', correct: false },
+				{ answer: '1921', correct: false },
+				{ answer: '1930', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o estádio principal do Internacional?',
+			answers: [
+				{ answer: 'Beira-Rio', correct: true },
+				{ answer: 'Arena Corinthians', correct: false },
+				{ answer: 'Arena do Grêmio', correct: false },
+				{ answer: 'Maracanã', correct: false },
+			],
+		},
+		{
+			question:
+				'Quantas vezes o Internacional conquistou a Taça Libertadores da América até 2022?',
+			answers: [
+				{ answer: '2', correct: true },
+				{ answer: '1', correct: false },
+				{ answer: '3', correct: false },
+				{ answer: '4', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual jogador é conhecido como "Fernandão" e é ídolo do Internacional?',
+			answers: [
+				{ answer: "D'Alessandro", correct: false },
+				{ answer: 'Nilmar', correct: false },
+				{ answer: 'Rafael Sóbis', correct: false },
+				{ answer: 'Fernando Lucio da Costa', correct: true },
+			],
+		},
+		{
+			question:
+				'Em que ano o Internacional venceu a sua primeira Taça Libertadores?',
+			answers: [
+				{ answer: '1975', correct: false },
+				{ answer: '1983', correct: false },
+				{ answer: '2006', correct: true },
+				{ answer: '2010', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o apelido do Internacional?',
+			answers: [
+				{ answer: 'Colorado', correct: true },
+				{ answer: 'Tricolor', correct: false },
+				{ answer: 'Alviverde', correct: false },
+				{ answer: 'Rubro-Negro', correct: false },
+			],
+		},
+		{
+			question: 'Quem é o maior artilheiro da história do Internacional?',
+			answers: [
+				{ answer: 'Fernandão', correct: false },
+				{ answer: 'Rafael Sóbis', correct: false },
+				{ answer: 'Escurinho', correct: false },
+				{ answer: 'Carlitos', correct: true },
+			],
+		},
+		{
+			question:
+				'Qual treinador conduziu o Internacional à conquista da Copa do Mundo de Clubes da FIFA em 2006?',
+			answers: [
+				{ answer: 'Tite', correct: false },
+				{ answer: 'Falcão', correct: false },
+				{ answer: 'Celso Roth', correct: false },
+				{ answer: 'Abel Braga', correct: true },
+			],
+		},
+		{
+			question:
+				'Quantos títulos da Copa do Brasil o Internacional conquistou até 2022?',
+			answers: [
+				{ answer: '3', correct: false },
+				{ answer: '5', correct: false },
+				{ answer: '1', correct: true },
+				{ answer: '6', correct: false },
+			],
+		},
+		{
+			question: "Qual nome do famoso drible de D'Alessandro?",
+			answers: [
+				{ answer: 'La cucaracha', correct: false },
+				{ answer: 'La boba', correct: true },
+				{ answer: 'Bobão', correct: false },
+				{ answer: 'La pergunta', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o maior campeão da Copa do Brasil até 2022?',
+			answers: [
+				{ answer: 'Flamengo', correct: false },
+				{ answer: 'Palmeiras', correct: false },
+				{ answer: 'Grêmio', correct: false },
+				{ answer: 'Cruzeiro', correct: true },
+			],
+		},
+		{
+			question:
+				'Qual clube brasileiro possui mais títulos do Campeonato regional?',
+			answers: [
+				{ answer: 'São Paulo', correct: false },
+				{ answer: 'ABC', correct: true },
+				{ answer: 'Campinense', correct: false },
+				{ answer: 'Corinthians', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual jogador brasileiro detém o recorde de maior artilharia em uma única edição do Campeonato Brasileiro?',
+			answers: [
+				{ answer: 'Pelé', correct: false },
+				{ answer: 'Zico', correct: false },
+				{ answer: 'Edmundo', correct: true },
+				{ answer: 'Ronaldo Nazário', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome oficial do estádio do Maracanã, no Rio de Janeiro?',
+			answers: [
+				{ answer: 'Estádio Nacional', correct: false },
+				{ answer: 'Estádio João Havelange', correct: false },
+				{ answer: 'Estádio Cícero Pompeu de Toledo', correct: false },
+				{ answer: 'Estádio Mário Filho', correct: true },
+			],
+		},
+		{
+			question:
+				'Qual clube brasileiro venceu a Copa Libertadores da América e mundial de clubes pela primeira vez?',
+			answers: [
+				{ answer: 'Santos', correct: true },
+				{ answer: 'Flamengo', correct: false },
+				{ answer: 'Grêmio', correct: false },
+				{ answer: 'São Paulo', correct: false },
+			],
+		},
+		{
+			question:
+				'Quantas seleções nacionais participam da Série A do Campeonato Brasileiro em 2022?',
+			answers: [
+				{ answer: '22', correct: false },
+				{ answer: '18', correct: false },
+				{ answer: '16', correct: false },
+				{ answer: '20', correct: true },
+			],
+		},
+		{
+			question:
+				'Quem é o jogador a ter vencido o Prêmio de Melhor do Mundo da FIFA mais jovem do Brasil?',
+			answers: [
+				{ answer: 'Ronaldo Nazário', correct: true },
+				{ answer: 'Romário', correct: false },
+				{ answer: 'Pelé', correct: false },
+				{ answer: 'Zico', correct: false },
+			],
+		},
+		{
+			question: 'Qual clube brasileiro é conhecido como "Galo"?',
+			answers: [
+				{ answer: 'Flamengo', correct: false },
+				{ answer: 'Grêmio', correct: false },
+				{ answer: 'Atlético Mineiro', correct: true },
+				{ answer: 'Corinthians', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o apelido do time Sport Club do Recife?',
+			answers: [
+				{ answer: 'Leão', correct: true },
+				{ answer: 'Tigre', correct: false },
+				{ answer: 'Urso', correct: false },
+				{ answer: 'Furacão', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o clube brasileiro com mais títulos do campeonato Brasileiro até 2022?',
+			answers: [
+				{ answer: 'São Paulo', correct: false },
+				{ answer: 'Palmeiras', correct: true },
+				{ answer: 'Cruzeiro', correct: false },
+				{ answer: 'Grêmio', correct: false },
+			],
+		},
+		{
+			question:
+				'Quem detém o recorde de mais pontos marcados em uma única partida na história da NBA?',
+			answers: [
+				{ answer: 'Kobe Bryant', correct: false },
+				{ answer: 'LeBron James', correct: false },
+				{ answer: 'Wilt Chamberlain', correct: true },
+				{ answer: 'Michael Jordan', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual dessas equipes venceu o maior número de títulos da NBA até 2022?',
+			answers: [
+				{ answer: 'Los Angeles Lakers', correct: true },
+				{ answer: 'Denver Nuggets', correct: false },
+				{ answer: 'Golden State Warriors', correct: false },
+				{ answer: 'Chicago Bulls', correct: false },
+			],
+		},
+		{
+			question: 'Quem é conhecido como "The Greek Freak" na NBA?',
+			answers: [
+				{ answer: 'James Harden', correct: false },
+				{ answer: 'Kevin Durant', correct: false },
+				{ answer: 'Giannis Antetokounmpo', correct: true },
+				{ answer: 'Stephen Curry', correct: false },
+			],
+		},
+		{
+			question:
+				'Quantos jogadores compõem uma equipe de basquete em quadra durante uma partida da NBA?',
+			answers: [
+				{ answer: '5', correct: true },
+				{ answer: '6', correct: false },
+				{ answer: '7', correct: false },
+				{ answer: '4', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual jogador foi escolhido como a primeira seleção geral no Draft da NBA de 2021?',
+			answers: [
+				{ answer: 'LaMelo Ball', correct: false },
+				{ answer: 'Anthony Edwards', correct: false },
+				{ answer: 'Cade Cunningham', correct: true },
+				{ answer: 'James Wiseman', correct: false },
+			],
+		},
+		{
+			question: 'Qual time venceu o Super Bowl mais recente (de 2022)?',
+			answers: [
+				{ answer: 'Kansas City Chiefs', correct: false },
+				{ answer: 'San Francisco 49ers', correct: false },
+				{ answer: 'Los Angeles Rams', correct: true },
+				{ answer: 'New England Patriots', correct: false },
+			],
+		},
+		{
+			question:
+				'Quem detém o recorde de mais touchdowns marcados em uma única temporada na NFL?',
+			answers: [
+				{ answer: 'Peyton Manning', correct: true },
+				{ answer: 'Tom Brady', correct: false },
+				{ answer: 'Adrian Peterson', correct: false },
+				{ answer: 'LaDainian Tomlinson', correct: false },
+			],
+		},
+		{
+			question: 'Qual posição Tom Brady joga na NFL?',
+			answers: [
+				{ answer: 'Quarterback', correct: true },
+				{ answer: 'Wide Receiver', correct: false },
+				{ answer: 'Running Back', correct: false },
+				{ answer: 'Linebacker', correct: false },
+			],
+		},
+		{
+			question: 'Em que cidade o Super Bowl LVI (56) foi realizado em 2022?',
+			answers: [
+				{ answer: 'Miami', correct: false },
+				{ answer: 'New Orleans', correct: false },
+				{ answer: 'Los Angeles', correct: true },
+				{ answer: 'Atlanta', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o time mais antigo da NFL?',
+			answers: [
+				{ answer: 'Green Bay Packers', correct: true },
+				{ answer: 'Chicago Bears', correct: false },
+				{ answer: 'New York Giants', correct: false },
+				{ answer: 'Pittsburgh Steelers', correct: false },
+			],
+		},
+		{
+			question: 'Qual equipe venceu a Stanley Cup mais recente (até 2022)?',
+			answers: [
+				{ answer: 'Tampa Bay Lightning', correct: true },
+				{ answer: 'Boston Bruins', correct: false },
+				{ answer: 'Chicago Blackhawks', correct: false },
+				{ answer: 'Pittsburgh Penguins', correct: false },
+			],
+		},
+		{
+			question:
+				'Quantos jogadores compõem uma equipe de hóquei no gelo durante uma partida da NHL?',
+			answers: [
+				{ answer: '6', correct: true },
+				{ answer: '5', correct: false },
+				{ answer: '7', correct: false },
+				{ answer: '8', correct: false },
+			],
+		},
+		{
+			question: 'Qual jogador é conhecido como "The Great One" na NHL?',
+			answers: [
+				{ answer: 'Alex Ovechkin', correct: false },
+				{ answer: 'Sidney Crosby', correct: false },
+				{ answer: 'Mario Lemieux', correct: false },
+				{ answer: 'Wayne Gretzky', correct: true },
+			],
+		},
+		{
+			question:
+				'Qual equipe detém o recorde de mais títulos da Stanley Cup na história da NHL?',
+			answers: [
+				{ answer: 'Montreal Canadiens', correct: true },
+				{ answer: 'Detroit Red Wings', correct: false },
+				{ answer: 'Toronto Maple Leafs', correct: false },
+				{ answer: 'New York Rangers', correct: false },
+			],
+		},
+		{
+			question: 'Em que país a NHL foi fundada?',
+			answers: [
+				{ answer: 'Estados Unidos', correct: false },
+				{ answer: 'Canadá', correct: true },
+				{ answer: 'Suécia', correct: false },
+				{ answer: 'Finlândia', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é a distância total de uma prova de maratona aquática nos Jogos Olímpicos?',
+			answers: [
+				{ answer: '5 km', correct: false },
+				{ answer: '10 km', correct: true },
+				{ answer: '15 km', correct: false },
+				{ answer: '20 km', correct: false },
+			],
+		},
+		{
+			question:
+				'Quem detém o recorde mundial masculino dos 100 metros nado livre?',
+			answers: [
+				{ answer: 'Michael Phelps', correct: false },
+				{ answer: 'Cesar Cielo', correct: false },
+				{ answer: 'Adam Peaty', correct: false },
+				{ answer: 'Kyle Chalmers', correct: true },
+			],
+		},
+		{
+			question: 'Quantas voltas uma prova de 200 metros nado medley possui?',
+			answers: [
+				{ answer: '4', correct: false },
+				{ answer: '6', correct: true },
+				{ answer: '8', correct: false },
+				{ answer: '10', correct: false },
+			],
+		},
+		{
+			question: 'Em que estilo de natação os atletas nadam de costas?',
+			answers: [
+				{ answer: 'Peito', correct: false },
+				{ answer: 'Borboleta', correct: false },
+				{ answer: 'Livre', correct: false },
+				{ answer: 'Costas', correct: true },
+			],
+		},
+		{
+			question:
+				'Qual é o nome do nadador brasileiro que conquistou a medalha de ouro nos 50 metros nado livre nos Jogos Olímpicos de 2016?',
+			answers: [
+				{ answer: 'Cesar Cielo', correct: true },
+				{ answer: 'Thiago Pereira', correct: false },
+				{ answer: 'Bruno Fratus', correct: false },
+				{ answer: 'Felipe França', correct: false },
+			],
+		},
+		{
+			question:
+				'Em que cidade foram realizados os primeiros Jogos Olímpicos da era moderna em 1896?',
+			answers: [
+				{ answer: 'Paris', correct: false },
+				{ answer: 'Atenas', correct: true },
+				{ answer: 'Londres', correct: false },
+				{ answer: 'Roma', correct: false },
+			],
+		},
+		{
+			question: 'Quem é considerado o "pai" dos Jogos Olímpicos?',
+			answers: [
+				{ answer: 'Pierre de Coubertin', correct: true },
+				{ answer: 'Barão de Coubertin', correct: false },
+				{ answer: 'Thomas Bach', correct: false },
+				{ answer: 'Juan Antonio Samaranch', correct: false },
+			],
+		},
+		{
+			question: 'Qual país sediou os Jogos Olímpicos de Verão em 2016?',
+			answers: [
+				{ answer: 'China', correct: false },
+				{ answer: 'Rússia', correct: false },
+				{ answer: 'Brasil', correct: true },
+				{ answer: 'Austrália', correct: false },
+			],
+		},
+		{
+			question:
+				'Quantas modalidades compunham os Jogos Olímpicos de Atenas 2004?',
+			answers: [
+				{ answer: '28', correct: false },
+				{ answer: '32', correct: false },
+				{ answer: '36', correct: true },
+				{ answer: '40', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual esporte faz parte do programa olímpico de verão desde os primeiros Jogos em 1896?',
+			answers: [
+				{ answer: 'Curling', correct: false },
+				{ answer: 'Golfe', correct: false },
+				{ answer: 'Natação', correct: true },
+				{ answer: 'Rugby', correct: false },
+			],
+		},
+		{
+			question:
+				'Quem foi o primeiro atleta a acender a pira olímpica durante a cerimônia de abertura?',
+			answers: [
+				{ answer: 'Usain Bolt', correct: false },
+				{ answer: 'Muhammad Ali', correct: false },
+				{ answer: 'Cathy Freeman', correct: false },
+				{ answer: 'Antônio Rebello', correct: true },
+			],
+		},
+		{
+			question: 'Quantas vezes o Brasil sediou os Jogos Olímpicos?',
+			answers: [
+				{ answer: '1', correct: true },
+				{ answer: '2', correct: false },
+				{ answer: '3', correct: false },
+				{ answer: 'Nunca sediou', correct: false },
+			],
+		},
+		{
+			question: 'Qual cidade será a sede dos Jogos Olímpicos de Verão de 2024?',
+			answers: [
+				{ answer: 'Tóquio', correct: false },
+				{ answer: 'Paris', correct: true },
+				{ answer: 'Los Angeles', correct: false },
+				{ answer: 'Roma', correct: false },
+			],
+		},
+		{
+			question:
+				'Em que ano as Olimpíadas de Inverno foram realizadas pela primeira vez?',
+			answers: [
+				{ answer: '1900', correct: false },
+				{ answer: '1924', correct: true },
+				{ answer: '1936', correct: false },
+				{ answer: '1948', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual atleta detém o recorde de maior número de medalhas olímpicas na história?',
+			answers: [
+				{ answer: 'Usain Bolt', correct: false },
+				{ answer: 'Michael Phelps', correct: true },
+				{ answer: 'Simone Biles', correct: false },
+				{ answer: 'Carl Lewis', correct: false },
+			],
+		},
+		{
+			question: 'Qual seleção venceu a Copa do Mundo da FIFA de 2018?',
+			answers: [
+				{ answer: 'Alemanha', correct: false },
+				{ answer: 'Espanha', correct: false },
+				{ answer: 'França', correct: true },
+				{ answer: 'Brasil', correct: false },
+			],
+		},
+		{
+			question:
+				'Quem é o artilheiro de todos os tempos da Liga dos Campeões da UEFA?',
+			answers: [
+				{ answer: 'Lionel Messi', correct: false },
+				{ answer: 'Cristiano Ronaldo', correct: true },
+				{ answer: 'Robert Lewandowski', correct: false },
+				{ answer: 'Neymar', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual clube venceu a Liga dos Campeões da UEFA na temporada 2020/2021?',
+			answers: [
+				{ answer: 'Real Madrid', correct: false },
+				{ answer: 'Liverpool', correct: false },
+				{ answer: 'Chelsea', correct: true },
+				{ answer: 'Bayern de Munique', correct: false },
+			],
+		},
+		{
+			question: 'Quem foi o artilheiro da Copa do Mundo de 2018?',
+			answers: [
+				{ answer: 'Lionel Messi', correct: false },
+				{ answer: 'Cristiano Ronaldo', correct: false },
+				{ answer: 'Antoine Griezmann', correct: true },
+				{ answer: 'Kylian Mbappé', correct: false },
+			],
+		},
+		{
+			question: 'Em qual país a Copa do Mundo de 2026 será realizada?',
+			answers: [
+				{ answer: 'Rússia', correct: false },
+				{ answer: 'Qatar', correct: false },
+				{ answer: 'Estados Unidos, Canadá e México', correct: true },
+				{ answer: 'Alemanha', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual jogador italiano é conhecido como "Il Capitano" e atuou por toda sua carreira no AS Roma?',
+			answers: [
+				{ answer: 'Andrea Pirlo', correct: false },
+				{ answer: 'Paolo Maldini', correct: false },
+				{ answer: 'Alessandro Del Piero', correct: false },
+				{ answer: 'Francesco Totti', correct: true },
+			],
+		},
+		{
+			question: 'Quem ganhou a Bola de Ouro de 2021?',
+			answers: [
+				{ answer: 'Lionel Messi', correct: true },
+				{ answer: 'Robert Lewandowski', correct: false },
+				{ answer: 'Cristiano Ronaldo', correct: false },
+				{ answer: 'Mohamed Salah', correct: false },
+			],
+		},
+		{
+			question: 'Qual seleção ganhou a Eurocopa 2020 (realizada em 2021)?',
+			answers: [
+				{ answer: 'Inglaterra', correct: false },
+				{ answer: 'Itália', correct: true },
+				{ answer: 'França', correct: false },
+				{ answer: 'Espanha', correct: false },
+			],
+		},
+		{
+			question: 'Em que país a Copa América de 2021 foi realizada?',
+			answers: [
+				{ answer: 'Argentina', correct: false },
+				{ answer: 'Brasil', correct: true },
+				{ answer: 'Chile', correct: false },
+				{ answer: 'Colômbia', correct: false },
+			],
+		},
+		{
+			question: 'Qual clube inglês tem o apelido de "Red Devils"?',
+			answers: [
+				{ answer: 'Manchester City', correct: false },
+				{ answer: 'Liverpool', correct: false },
+				{ answer: 'Manchester United', correct: true },
+				{ answer: 'Chelsea', correct: false },
+			],
+		},
+		{
+			question:
+				'Em qual esporte ocorreu a "Virada do Século", quando os Estados Unidos venceram a União Soviética nas Olimpíadas de 1980?',
+			answers: [
+				{ answer: 'Basquete', correct: true },
+				{ answer: 'Futebol', correct: false },
+				{ answer: 'Hóquei no Gelo', correct: false },
+				{ answer: 'Atletismo', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual time de futebol protagonizou a "Remontada", uma das maiores viradas na Liga dos Campeões da UEFA, ao vencer o Paris Saint-Germain em 2017?',
+			answers: [
+				{ answer: 'Real Madrid', correct: true },
+				{ answer: 'Barcelona', correct: false },
+				{ answer: 'Bayern de Munique', correct: false },
+				{ answer: 'Manchester City', correct: false },
+			],
+		},
+		{
+			question:
+				'Em qual esporte ocorreu a "Virada de Augusta", quando Tiger Woods venceu o Masters em 2019?',
+			answers: [
+				{ answer: 'Tênis', correct: false },
+				{ answer: 'Golfe', correct: true },
+				{ answer: 'Boxe', correct: false },
+				{ answer: 'Ciclismo', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual seleção de futebol protagonizou a "Virada Fenomenal", ao vencer a Alemanha na final da Copa do Mundo de 1954?',
+			answers: [
+				{ answer: 'Brasil', correct: false },
+				{ answer: 'Uruguai', correct: false },
+				{ answer: 'Hungria', correct: true },
+				{ answer: 'Itália', correct: false },
+			],
+		},
+		{
+			question:
+				'Em qual esporte ocorreu a "Virada Milagrosa", quando o time dos Estados Unidos derrotou a União Soviética na final de um torneio em 1960?',
+			answers: [
+				{ answer: 'Vôlei', correct: false },
+				{ answer: 'Basquete', correct: true },
+				{ answer: 'Hóquei no Gelo', correct: false },
+				{ answer: 'Atletismo', correct: false },
+			],
+		},
+		{
+			question:
+				'Em qual esporte foi registrada a maior goleada em uma Copa do Mundo, com a Hungria vencendo El Salvador por 10 a 1 em 1982?',
+			answers: [
+				{ answer: 'Futebol', correct: true },
+				{ answer: 'Hóquei no Gelo', correct: false },
+				{ answer: 'Basquete', correct: false },
+				{ answer: 'Rugby', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual time de futebol registrou a maior vitória na Liga dos Campeões da UEFA, ao derrotar o Stade de Reims por 7 a 3 na final de 1956?',
+			answers: [
+				{ answer: 'Real Madrid', correct: true },
+				{ answer: 'Barcelona', correct: false },
+				{ answer: 'Bayern de Munique', correct: false },
+				{ answer: 'Manchester United', correct: false },
+			],
+		},
+		{
+			question:
+				'Em que esporte ocorreu a maior pontuação registrada em uma única partida, quando os Detroit Pistons venceram o Denver Nuggets por 186 a 184 em 1983?',
+			answers: [
+				{ answer: 'Futebol Americano', correct: false },
+				{ answer: 'Basquete', correct: true },
+				{ answer: 'Hóquei no Gelo', correct: false },
+				{ answer: 'Beisebol', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual seleção de futebol venceu a maior partida da história da Copa do Mundo, ao derrotar a Tailândia por 13 a 0 em 2019?',
+			answers: [
+				{ answer: 'Brasil', correct: false },
+				{ answer: 'Alemanha', correct: false },
+				{ answer: 'Estados Unidos', correct: true },
+				{ answer: 'França', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual jogador de tênis é conhecido por ter vencido uma partida com o placar de 6 0, 6 0, 6 0 mais vezes na história?',
+			answers: [
+				{ answer: 'Roger Federer', correct: false },
+				{ answer: 'Novak Djokovic', correct: false },
+				{ answer: 'Rafael Nadal', correct: false },
+				{ answer: 'Serena Williams', correct: true },
+			],
+		},
+		{
+			question:
+				'Quem é considerado o maior jogador de basquete de todos os tempos?',
+			answers: [
+				{ answer: 'Kobe Bryant', correct: false },
+				{ answer: 'LeBron James', correct: false },
+				{ answer: 'Michael Jordan', correct: true },
+				{ answer: 'Magic Johnson', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual atleta é amplamente considerado o melhor jogador de futebol de todos os tempos?',
+			answers: [
+				{ answer: 'Lionel Messi', correct: true },
+				{ answer: 'Cristiano Ronaldo', correct: false },
+				{ answer: 'Pele', correct: false },
+				{ answer: 'Diego Maradona', correct: false },
+			],
+		},
+		{
+			question:
+				'Quem é o recordista de medalhas de ouro olímpicas na história dos Jogos Olímpicos?',
+			answers: [
+				{ answer: 'Usain Bolt', correct: false },
+				{ answer: 'Michael Phelps', correct: true },
+				{ answer: 'Carl Lewis', correct: false },
+				{ answer: 'Jesse Owens', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual tenista detém o recorde de mais títulos de Grand Slam na história?',
+			answers: [
+				{ answer: 'Rafael Nadal', correct: false },
+				{ answer: 'Roger Federer', correct: false },
+				{ answer: 'Novak Djokovic', correct: true },
+				{ answer: 'Serena Williams', correct: false },
+			],
+		},
+		{
+			question: 'Quem é considerado o maior nadador de todos os tempos?',
+			answers: [
+				{ answer: 'Ian Thorpe', correct: false },
+				{ answer: 'Ryan Lochte', correct: false },
+				{ answer: 'Michael Phelps', correct: true },
+				{ answer: 'Mark Spitz', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual boxeador é conhecido como "O Maior" e teve uma invencibilidade ao longo de sua carreira profissional?',
+			answers: [
+				{ answer: 'Mike Tyson', correct: false },
+				{ answer: 'Muhammad Ali', correct: true },
+				{ answer: 'Sugar Ray Leonard', correct: false },
+				{ answer: 'Floyd Mayweather Jr.', correct: false },
+			],
+		},
+		{
+			question:
+				'Quem é considerado o maior corredor de longa distância de todos os tempos?',
+			answers: [
+				{ answer: 'Usain Bolt', correct: false },
+				{ answer: 'Haile Gebrselassie', correct: false },
+				{ answer: 'Eliud Kipchoge', correct: true },
+				{ answer: 'Mo Farah', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual golfista é frequentemente chamado de "O Tigre" e é considerado um dos maiores da história?',
+			answers: [
+				{ answer: 'Phil Mickelson', correct: false },
+				{ answer: 'Rory McIlroy', correct: false },
+				{ answer: 'Arnold Palmer', correct: false },
+				{ answer: 'Tiger Woods', correct: true },
+			],
+		},
+		{
+			question:
+				'Quem é considerado o melhor jogador de xadrez de todos os tempos?',
+			answers: [
+				{ answer: 'Garry Kasparov', correct: true },
+				{ answer: 'Bobby Fischer', correct: false },
+				{ answer: 'Magnus Carlsen', correct: false },
+				{ answer: 'Anatoly Karpov', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual jogador de beisebol detém o recorde de mais home runs em uma única temporada da MLB?',
+			answers: [
+				{ answer: 'Barry Bonds', correct: true },
+				{ answer: 'Babe Ruth', correct: false },
+				{ answer: 'Hank Aaron', correct: false },
+				{ answer: 'Ken Griffey Jr.', correct: false },
 			],
 		},
 	];
 
-	/* {
-		question:
-			'',
-		answers: [
-			{ answer: '', correct: false },
-			{ answer: '', correct: true },
-			{ answer: '', correct: false },
-			{ answer: '', correct: false },
-		],
-	}, 
-	*/
 	// substituição do quizz para a primeira pergunta
 	function init() {
 		// Limpar tela antes de iniciar um novo jogo
