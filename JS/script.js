@@ -2026,12 +2026,997 @@ document.addEventListener('DOMContentLoaded', function () {
 			],
 		},
 		{
-			question: '',
+			question: 'Quem é o xerife principal no início de "The Walking Dead"?',
 			answers: [
-				{ answer: '', correct: false },
-				{ answer: '', correct: true },
-				{ answer: '', correct: false },
-				{ answer: '', correct: false },
+				{ answer: 'Daryl Dixon', correct: false },
+				{ answer: 'Rick Grimes', correct: true },
+				{ answer: 'Glenn Rhee', correct: false },
+				{ answer: 'Negan', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome do líder do grupo "Os Salvadores" em "The Walking Dead"?',
+			answers: [
+				{ answer: 'Maggie Greene', correct: false },
+				{ answer: 'Michonne', correct: false },
+				{ answer: 'The Governor (O Governador)', correct: false },
+				{ answer: 'Negan', correct: true },
+			],
+		},
+		{
+			question: 'Onde a maior parte da ação de "The Walking Dead" ocorre?',
+			answers: [
+				{ answer: 'Los Angeles, Califórnia', correct: false },
+				{ answer: 'Nova York, Nova York', correct: false },
+				{ answer: 'Atlanta, Geórgia', correct: true },
+				{ answer: 'Miami, Flórida', correct: false },
+			],
+		},
+		{
+			question:
+				'Quem é conhecido por sua habilidade com uma besta (crossbow) em "The Walking Dead"?',
+			answers: [
+				{ answer: 'Carol Peletier', correct: false },
+				{ answer: 'Morgan Jones', correct: false },
+				{ answer: 'Daryl Dixon', correct: true },
+				{ answer: 'Abraham Ford', correct: false },
+			],
+		},
+		{
+			question: 'Quem é o criador da série "Twin Peaks"?',
+			answers: [
+				{ answer: 'David Lynch', correct: true },
+				{ answer: 'Mark Frost', correct: false },
+				{ answer: 'Quentin Tarantino', correct: false },
+				{ answer: 'Stanley Kubrick', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome da personagem principal cujo assassinato é o foco da trama em "Twin Peaks"?',
+			answers: [
+				{ answer: 'Audrey Horne', correct: false },
+				{ answer: 'Leland Palmer', correct: false },
+				{ answer: 'Laura Palmer', correct: true },
+				{ answer: 'Donna Hayward', correct: false },
+			],
+		},
+		{
+			question: 'Quem é o líder da Easy Company em "Band of Brothers"?',
+			answers: [
+				{ answer: 'Richard Winters', correct: true },
+				{ answer: 'Lewis Nixon', correct: false },
+				{ answer: 'Donald Malarkey', correct: false },
+				{ answer: 'Joe Toye', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é a operação militar em que a Easy Company participa no Dia D, conforme retratado em "Band of Brothers"?',
+			answers: [
+				{ answer: 'Operação Market Garden', correct: false },
+				{ answer: 'Operação Overlord', correct: true },
+				{ answer: 'Operação Pegasus', correct: false },
+				{ answer: 'Operação Neptune', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o lema da Casa Stark em "Game of Thrones"?',
+			answers: [
+				{ answer: 'Família, Honra, Dever', correct: false },
+				{ answer: 'O Inverno Está Chegando', correct: true },
+				{ answer: 'O Fogo e o Sangue', correct: false },
+				{ answer: 'Crescendo Forte', correct: false },
+			],
+		},
+		{
+			question:
+				'Quem é conhecido como "A Mãe dos Dragões" em "Game of Thrones"?',
+			answers: [
+				{ answer: 'Sansa Stark', correct: false },
+				{ answer: 'Cersei Lannister', correct: false },
+				{ answer: 'Daenerys Targaryen', correct: true },
+				{ answer: 'Margaery Tyrell', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o nome da espada de Jon Snow em "Game of Thrones"?',
+			answers: [
+				{ answer: 'Aço Valiriano', correct: false },
+				{ answer: 'Agulha', correct: false },
+				{ answer: 'Lamento da Viúva', correct: false },
+				{ answer: 'Garra Longa', correct: true },
+			],
+		},
+		{
+			question:
+				'Quem é o líder do exército dos mortos, também conhecido como Rei da Noite, em "Game of Thrones"?',
+			answers: [
+				{ answer: 'Ramsay Bolton', correct: false },
+				{ answer: 'White Walker', correct: false },
+				{ answer: 'Night King', correct: true },
+				{ answer: 'Euron Greyjoy', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o nome do dono do bar em "Os Simpsons"?',
+			answers: [
+				{ answer: 'Ned Flanders', correct: false },
+				{ answer: 'Moe Szyslak', correct: true },
+				{ answer: 'Barney Gumble', correct: false },
+				{ answer: 'Homer Simpson', correct: false },
+			],
+		},
+		{
+			question: 'Qual é a marca de cerveja favorita de Homer Simpson?',
+			answers: [
+				{ answer: 'Buzz Cola', correct: false },
+				{ answer: 'Duff', correct: true },
+				{ answer: 'Fudd', correct: false },
+				{ answer: 'Suds', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome do chefe de Homer na Usina Nuclear de Springfield?',
+			answers: [
+				{ answer: 'Waylon Smithers', correct: false },
+				{ answer: 'Montgomery Burns', correct: true },
+				{ answer: 'Seymour Skinner', correct: false },
+				{ answer: 'Lenny Leonard', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é a frase famosa de Bart Simpson que ele escreve no quadro-negro nos créditos iniciais?',
+			answers: [
+				{
+					answer: 'Eu não devo mexer com coisas que não entendo',
+					correct: false,
+				},
+				{ answer: 'Não vou fazer alarde na escola', correct: false },
+				{ answer: 'Eu não vou fazer piadas com a diretora', correct: false },
+				{ answer: 'Eu não devo fazer minha irmã voar', correct: true },
+			],
+		},
+		{
+			question:
+				'Qual dos personagens principais em "The Big Bang Theory" é um astrofísico experimental?',
+			answers: [
+				{ answer: 'Sheldon Cooper', correct: false },
+				{ answer: 'Leonard Hofstadter', correct: true },
+				{ answer: 'Rajesh Koothrappali', correct: false },
+				{ answer: 'Howard Wolowitz', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome da vizinha que mora em frente ao apartamento de Leonard e Sheldon?',
+			answers: [
+				{ answer: 'Amy Farrah Fowler', correct: false },
+				{ answer: 'Penny', correct: true },
+				{ answer: 'Bernadette Rostenkowski', correct: false },
+				{ answer: 'Leslie Winkle', correct: false },
+			],
+		},
+		{
+			question:
+				'Em qual loja de produtos eletrônicos Sheldon trabalha em "The Big Bang Theory"?',
+			answers: [
+				{ answer: 'Best Buy', correct: false },
+				{ answer: 'RadioShack', correct: false },
+				{ answer: "Stuart's Comic Book Store", correct: true },
+				{ answer: 'Microsoft Store', correct: false },
+			],
+		},
+		{
+			question: 'Qual é a profissão de Howard Wolowitz?',
+			answers: [
+				{ answer: 'Astrofísico Experimental', correct: false },
+				{ answer: 'Engenheiro Aeroespacial', correct: true },
+				{ answer: 'Biologo Molecular', correct: false },
+				{ answer: 'Teórico de Cordas', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o nome do protagonista em "Breaking Bad"?',
+			answers: [
+				{ answer: 'Jesse Pinkman', correct: false },
+				{ answer: 'Saul Goodman', correct: false },
+				{ answer: 'Walter White', correct: true },
+				{ answer: 'Hank Schrader', correct: false },
+			],
+		},
+		{
+			question: 'O que Walter White fabrica e vende durante a série?',
+			answers: [
+				{ answer: 'Drogas Sintéticas', correct: false },
+				{ answer: 'Armas', correct: false },
+				{ answer: 'Metanfetamina', correct: true },
+				{ answer: 'Produtos Químicos', correct: false },
+			],
+		},
+		{
+			question:
+				'Quem é o parceiro de Walter White na produção de metanfetamina?',
+			answers: [
+				{ answer: 'Jesse Pinkman', correct: true },
+				{ answer: 'Saul Goodman', correct: false },
+				{ answer: 'Hank Schrader', correct: false },
+				{ answer: 'Gus Fring', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o apelido de Walter White como traficante de drogas?',
+			answers: [
+				{ answer: 'Heisenberg', correct: true },
+				{ answer: 'El Loco', correct: false },
+				{ answer: 'O Chefão', correct: false },
+				{ answer: 'O Químico', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome real do advogado Saul Goodman em "Better Call Saul"?',
+			answers: [
+				{ answer: 'Saul Goodman é seu nome real', correct: false },
+				{ answer: 'James McGill', correct: true },
+				{ answer: 'Charles McGill Jr.', correct: false },
+				{ answer: 'Bob Odenkirk', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o apelido que Mike Ehrmantraut ganha em "Better Call Saul"?',
+			answers: [
+				{ answer: 'O Chefe', correct: false },
+				{ answer: 'O Assassino Silencioso', correct: true },
+				{ answer: 'O Limpador', correct: false },
+				{ answer: 'O Vigilante', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é a relação familiar entre Jimmy McGill (Saul Goodman) e Chuck McGill em "Better Call Saul"?',
+			answers: [
+				{ answer: 'Irmãos', correct: true },
+				{ answer: 'Pai e Filho', correct: false },
+				{ answer: 'Primos', correct: false },
+				{ answer: 'Amigos de Infância', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é a especialidade de Kim Wexler como advogada em "Better Call Saul"?',
+			answers: [
+				{ answer: 'Direito Penal', correct: false },
+				{ answer: 'Direito de Família', correct: false },
+				{ answer: 'Direito Empresarial', correct: false },
+				{ answer: 'Direito de Propriedade', correct: true },
+			],
+		},
+		{
+			question: 'Qual é o nome dos irmãos protagonistas em "Supernatural"?',
+			answers: [
+				{ answer: 'Dean e Sam Winchester', correct: true },
+				{ answer: 'Michael e Lucifer', correct: false },
+				{ answer: 'John e Bobby Singer', correct: false },
+				{ answer: 'Castiel e Crowley', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o carro favorito dos irmãos Winchester em "Supernatural"?',
+			answers: [
+				{ answer: 'Chevrolet Impala', correct: true },
+				{ answer: 'Ford Mustang', correct: false },
+				{ answer: 'Dodge Charger', correct: false },
+				{ answer: 'Jeep Wrangler', correct: false },
+			],
+		},
+		{
+			question: 'Quem é o Rei do Inferno em "Supernatural"?',
+			answers: [
+				{ answer: 'Azazel', correct: false },
+				{ answer: 'Lúcifer', correct: false },
+				{ answer: 'Crowley', correct: true },
+				{ answer: 'Abaddon', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é a profissão original de Bobby Singer em "Supernatural"?',
+			answers: [
+				{ answer: 'Caçador', correct: false },
+				{ answer: 'Exorcista', correct: false },
+				{ answer: 'Médico', correct: false },
+				{ answer: 'Mecânico', correct: true },
+			],
+		},
+		{
+			question:
+				'Qual é a prisão fictícia onde se passa a maior parte da série "Oz"?',
+			answers: [
+				{ answer: 'San Quentin State Prison', correct: false },
+				{ answer: 'Attica Correctional Facility', correct: false },
+				{ answer: 'Oswald State Correctional Facility', correct: true },
+				{ answer: 'Rikers Island', correct: false },
+			],
+		},
+		{
+			question: 'Quem é o líder da unidade "Em City" em "Oz"?',
+			answers: [
+				{ answer: "Ryan O'Reily", correct: false },
+				{ answer: 'Kareem Saïd', correct: false },
+				{ answer: 'Tim McManus', correct: false },
+				{ answer: 'Vernon Schillinger', correct: true },
+			],
+		},
+		{
+			question: 'Qual é o nome da cidade onde se passa a série "The Wire"?',
+			answers: [
+				{ answer: 'Chicago', correct: false },
+				{ answer: 'New York', correct: false },
+				{ answer: 'Baltimore', correct: true },
+				{ answer: 'Philadelphia', correct: false },
+			],
+		},
+		{
+			question: 'Qual é a unidade policial focada em "The Wire"?',
+			answers: [
+				{ answer: 'SVU - Special Victims Unit', correct: false },
+				{ answer: 'Major Crimes Unit', correct: true },
+				{ answer: 'Homicide: Life on the Street', correct: false },
+				{ answer: 'Anti-Crime Unit', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é a especialidade médica do Dr. Gregory House em "House"?',
+			answers: [
+				{ answer: 'Cirurgia Geral', correct: false },
+				{ answer: 'Oncologia', correct: false },
+				{ answer: 'Nefrologia', correct: false },
+				{ answer: 'Infectologia', correct: true },
+			],
+		},
+		{
+			question: 'Qual é o nome completo do protagonista em "House"?',
+			answers: [
+				{ answer: 'Greg House', correct: false },
+				{ answer: 'James Wilson', correct: false },
+				{ answer: 'Eric Foreman', correct: false },
+				{ answer: 'Gregory House', correct: true },
+			],
+		},
+		{
+			question: 'Qual é o vício do Dr. House em "House"?',
+			answers: [
+				{ answer: 'Álcool', correct: false },
+				{ answer: 'Remédio', correct: true },
+				{ answer: 'Cigarros', correct: false },
+				{ answer: 'Café', correct: false },
+			],
+		},
+		{
+			question:
+				'Quem é o melhor amigo e colega de trabalho de House em "House"?',
+			answers: [
+				{ answer: 'Cameron', correct: false },
+				{ answer: 'Chase', correct: false },
+				{ answer: 'Foreman', correct: false },
+				{ answer: 'Wilson', correct: true },
+			],
+		},
+		{
+			question:
+				'Quem é a protagonista e narradora principal em "Grey\'s Anatomy"?',
+			answers: [
+				{ answer: 'Miranda Bailey', correct: false },
+				{ answer: 'Meredith Grey', correct: true },
+				{ answer: 'Cristina Yang', correct: false },
+				{ answer: 'Arizona Robbins', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome do hospital onde ocorre a maior parte da ação em "Grey\'s Anatomy"?',
+			answers: [
+				{ answer: 'Seattle General Hospital', correct: false },
+				{ answer: 'Mercy West Medical Center', correct: false },
+				{ answer: 'Grey Sloan Memorial Hospital', correct: true },
+				{ answer: "St. Catherine's Hospital", correct: false },
+			],
+		},
+		{
+			question: 'Quem é conhecido como "McDreamy" em "Grey\'s Anatomy"?',
+			answers: [
+				{ answer: "George O'Malley", correct: false },
+				{ answer: 'Alex Karev', correct: false },
+				{ answer: 'Derek Shepherd', correct: true },
+				{ answer: 'Jackson Avery', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o apelido de Meredith Grey para Cristina Yang?',
+			answers: [
+				{ answer: 'McSteamy', correct: false },
+				{ answer: 'Little Grey', correct: false },
+				{ answer: 'Twisted Sister', correct: true },
+				{ answer: 'Dark and Twisty', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o prêmio oferecido no jogo mortal em "Round 6"?',
+			answers: [
+				{ answer: 'Dinheiro', correct: true },
+				{ answer: 'Um carro de luxo', correct: false },
+				{ answer: 'Uma casa', correct: false },
+				{ answer: 'Uma viagem ao redor do mundo', correct: false },
+			],
+		},
+		{
+			question:
+				'Quantos participantes são inicialmente convidados a participar do jogo em "Round 6"?',
+			answers: [
+				{ answer: '10', correct: false },
+				{ answer: '100', correct: false },
+				{ answer: '456', correct: true },
+				{ answer: '1.000', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome dos dois agentes do FBI protagonistas em "Arquivo X"?',
+			answers: [
+				{ answer: 'Mulder e Scully', correct: true },
+				{ answer: 'Smith e Johnson', correct: false },
+				{ answer: 'Cooper e Anderson', correct: false },
+				{ answer: 'Taylor e Miller', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o lema icônico de "Arquivo X"?',
+			answers: [
+				{ answer: 'The Truth is Out There', correct: true },
+				{ answer: 'Trust No One', correct: false },
+				{ answer: 'I Want to Believe', correct: false },
+				{ answer: 'The Future is Now', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome da cidade onde ocorrem os eventos de "Stranger Things"?',
+			answers: [
+				{ answer: 'Hawkins', correct: true },
+				{ answer: 'Springfield', correct: false },
+				{ answer: 'Mill Valley', correct: false },
+				{ answer: 'Westeros', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome do lugar alternativo e assustador em "Stranger Things"?',
+			answers: [
+				{ answer: 'The Underworld', correct: false },
+				{ answer: 'The Nether', correct: false },
+				{ answer: 'The Abyss', correct: false },
+				{ answer: 'The Upside Down', correct: true },
+			],
+		},
+		{
+			question:
+				'Qual é o nome do grupo de crianças protagonistas em "Stranger Things"?',
+			answers: [
+				{ answer: 'The Avengers', correct: false },
+				{ answer: 'The Goonies', correct: false },
+				{ answer: 'The Lost Boys', correct: false },
+				{ answer: 'The Party', correct: true },
+			],
+		},
+		{
+			question:
+				'Qual é o nome da garota com habilidades telecinéticas em "Stranger Things"?',
+			answers: [
+				{ answer: 'Max', correct: false },
+				{ answer: 'Eleven', correct: true },
+				{ answer: 'Robin', correct: false },
+				{ answer: 'Nancy', correct: false },
+			],
+		},
+		{
+			question: 'Qual é a sigla do motoclube em "Sons of Anarchy"?',
+			answers: [
+				{ answer: 'Bandidos', correct: false },
+				{ answer: 'Hells Angels', correct: false },
+				{ answer: 'Mayans', correct: false },
+				{ answer: 'SAMCRO', correct: true },
+			],
+		},
+		{
+			question:
+				'Quem é o protagonista principal e presidente do clube em "Sons of Anarchy"?',
+			answers: [
+				{ answer: 'Jax Teller', correct: true },
+				{ answer: 'Clay Morrow', correct: false },
+				{ answer: 'Opie Winston', correct: false },
+				{ answer: 'Chibs Telford', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome da cidade fictícia onde o clube está localizado em "Sons of Anarchy"?',
+			answers: [
+				{ answer: 'Los Angeles', correct: false },
+				{ answer: 'Charming', correct: true },
+				{ answer: 'Sturgis', correct: false },
+				{ answer: 'Tucson', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o lema do clube em "Sons of Anarchy"?',
+			answers: [
+				{ answer: 'Ride or Die', correct: false },
+				{ answer: 'Live Free or Die', correct: false },
+				{ answer: 'Fear the Reaper', correct: false },
+				{ answer: 'Fear the Sons', correct: true },
+			],
+		},
+		{
+			question: 'Qual é o nome do protagonista em "Prison Break"?',
+			answers: [
+				{ answer: 'Michael Scofield', correct: true },
+				{ answer: 'Lincoln Burrows', correct: false },
+				{ answer: 'Theodore Bagwell', correct: false },
+				{ answer: 'Fernando Sucre', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome da prisão de segurança máxima de onde Michael Scofield tenta escapar?',
+			answers: [
+				{ answer: 'San Quentin State Prison', correct: false },
+				{ answer: 'Leavenworth Penitentiary', correct: false },
+				{ answer: 'Fox River State Penitentiary', correct: true },
+				{ answer: "Riker's Island", correct: false },
+			],
+		},
+		{
+			question:
+				'Quem é o irmão de Michael Scofield que está no corredor da morte em "Prison Break"?',
+			answers: [
+				{ answer: 'Fernando Sucre', correct: false },
+				{ answer: 'John Abruzzi', correct: false },
+				{ answer: 'Lincoln Burrows', correct: true },
+				{ answer: 'Theodore Bagwell', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o plano de fuga engenhoso que Michael usa em "Prison Break"?',
+			answers: [
+				{ answer: 'Túnel secreto', correct: false },
+				{ answer: 'Helicóptero de resgate', correct: false },
+				{ answer: 'Mapa do labirinto', correct: false },
+				{ answer: 'Tatuagem do mapa da prisão', correct: true },
+			],
+		},
+		{
+			question:
+				'Qual é o nome completo da personagem principal em "Anne with an E"?',
+			answers: [
+				{ answer: 'Anne Smith', correct: false },
+				{ answer: 'Anne Green', correct: false },
+				{ answer: 'Anne Shirley', correct: true },
+				{ answer: 'Anne Johnson', correct: false },
+			],
+		},
+		{
+			question: 'Onde se passa a maior parte da história de "Anne with an E"?',
+			answers: [
+				{ answer: 'Londres', correct: false },
+				{ answer: 'Nova York', correct: false },
+				{ answer: 'Avonlea', correct: true },
+				{ answer: 'Toronto', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome da fazenda onde Anne é adotada por Marilla e Matthew?',
+			answers: [
+				{ answer: 'Green Gables', correct: true },
+				{ answer: 'Blue Lagoon', correct: false },
+				{ answer: 'Meadowbrook', correct: false },
+				{ answer: 'Maplewood', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o apelido carinhoso que Anne dá à sua professora em "Anne with an E"?',
+			answers: [
+				{ answer: 'Srta. Johnson', correct: false },
+				{ answer: 'Sra. Brown', correct: false },
+				{ answer: 'Srta. Smith', correct: false },
+				{ answer: 'Srta. Stacy', correct: true },
+			],
+		},
+		{
+			question: 'Quem é a protagonista da primeira temporada de "Bridgerton"?',
+			answers: [
+				{ answer: 'Daphne Bridgerton', correct: true },
+				{ answer: 'Eloise Bridgerton', correct: false },
+				{ answer: 'Penelope Featherington', correct: false },
+				{ answer: 'Marina Thompson', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o nome do fictício jornal de fofocas em "Bridgerton"?',
+			answers: [
+				{ answer: 'The London Times', correct: false },
+				{ answer: 'The Society Gazette', correct: true },
+				{ answer: 'The Regency News', correct: false },
+				{ answer: 'The Bridgerton Chronicle', correct: false },
+			],
+		},
+		{
+			question: 'Quem é conhecido como Lady Whistledown em "Bridgerton"?',
+			answers: [
+				{ answer: 'Penelope Featherington', correct: true },
+				{ answer: 'Daphne Bridgerton', correct: false },
+				{ answer: 'Eloise Bridgerton', correct: false },
+				{ answer: 'Marina Thompson', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome do irmão mais velho na família Bridgerton em "Bridgerton"?',
+			answers: [
+				{ answer: 'Anthony', correct: true },
+				{ answer: 'Benedict', correct: false },
+				{ answer: 'Colin', correct: false },
+				{ answer: 'Gregory', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome do personagem principal em "Um Maluco no Pedaço"?',
+			answers: [
+				{ answer: 'Carlton Banks', correct: false },
+				{ answer: 'Geoffrey Butler', correct: false },
+				{ answer: 'Will Smith', correct: true },
+				{ answer: 'Philip Banks', correct: false },
+			],
+		},
+		{
+			question:
+				'O que leva Will a se mudar para a mansão dos Banks em "Um Maluco no Pedaço"?',
+			answers: [
+				{ answer: 'Problemas financeiros', correct: false },
+				{ answer: 'Problemas escolares', correct: false },
+				{ answer: 'Briga na escola', correct: true },
+				{ answer: 'Vontade de morar em Bel-Air', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o nome da tia de Will em "Um Maluco no Pedaço"?',
+			answers: [
+				{ answer: 'Hilary', correct: true },
+				{ answer: 'Ashley', correct: false },
+				{ answer: 'Vivian', correct: false },
+				{ answer: 'Lisa', correct: false },
+			],
+		},
+		{
+			question:
+				'O que Will fazia antes de se mudar para Bel-Air em "Um Maluco no Pedaço"?',
+			answers: [
+				{ answer: 'Rapper', correct: true },
+				{ answer: 'Ator', correct: false },
+				{ answer: 'Atleta', correct: false },
+				{ answer: 'Estudante', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome do personagem principal em "Eu, a Patroa e as Crianças"?',
+			answers: [
+				{ answer: 'Jay Kyle', correct: false },
+				{ answer: 'Michael Kyle', correct: true },
+				{ answer: 'Claire Kyle', correct: false },
+				{ answer: 'Junior Kyle', correct: false },
+			],
+		},
+		{
+			question: 'Quantos filhos o casal Kyle tem no início da série?',
+			answers: [
+				{ answer: 'Dois', correct: false },
+				{ answer: 'Três', correct: true },
+				{ answer: 'Quatro', correct: false },
+				{ answer: 'Cinco', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome da empresa onde Michael Kyle trabalha em "Eu, a Patroa e as Crianças"?',
+			answers: [
+				{ answer: 'Kylertech', correct: false },
+				{ answer: 'KyleCorp', correct: false },
+				{ answer: 'Kyle Industries', correct: false },
+				{ answer: 'Kyle Trucking', correct: true },
+			],
+		},
+		{
+			question:
+				'Qual é a profissão de Jay Kyle em "Eu, a Patroa e as Crianças"?',
+			answers: [
+				{ answer: 'Advogada', correct: false },
+				{ answer: 'Médica', correct: false },
+				{ answer: 'Professora', correct: false },
+				{ answer: 'Dona de Casa', correct: true },
+			],
+		},
+		{
+			question: 'Qual é o nome do líder dos "The Boys"?',
+			answers: [
+				{ answer: 'Billy Butcher', correct: true },
+				{ answer: 'Hughie Campbell', correct: false },
+				{ answer: 'Frenchie', correct: false },
+				{ answer: "Mother's Milk", correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome do grupo de super-heróis corporativos em "The Boys"?',
+			answers: [
+				{ answer: 'The Avengers', correct: false },
+				{ answer: 'The Seven', correct: true },
+				{ answer: 'The Justice League', correct: false },
+				{ answer: 'The X-Men', correct: false },
+			],
+		},
+		{
+			question: 'Quem é o super-herói mais poderoso em "The Boys"?',
+			answers: [
+				{ answer: 'Homelander', correct: true },
+				{ answer: 'Starlight', correct: false },
+				{ answer: 'Queen Maeve', correct: false },
+				{ answer: 'A-Train', correct: false },
+			],
+		},
+		{
+			question: 'Qual é a empresa que gerencia os super-heróis em "The Boys"?',
+			answers: [
+				{ answer: 'Vought International', correct: true },
+				{ answer: 'Wayne Enterprises', correct: false },
+				{ answer: 'Stark Industries', correct: false },
+				{ answer: 'LexCorp', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome do personagem principal em "How I Met Your Mother"?',
+			answers: [
+				{ answer: 'Barney Stinson', correct: false },
+				{ answer: 'Robin Scherbatsky', correct: false },
+				{ answer: 'Ted Mosby', correct: true },
+				{ answer: 'Marshall Eriksen', correct: false },
+			],
+		},
+		{
+			question: 'Em que cidade a série "How I Met Your Mother" se passa?',
+			answers: [
+				{ answer: 'Los Angeles', correct: false },
+				{ answer: 'Chicago', correct: false },
+				{ answer: 'Nova York', correct: true },
+				{ answer: 'Seattle', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é a profissão de Barney Stinson em "How I Met Your Mother"?',
+			answers: [
+				{ answer: 'Advogado', correct: false },
+				{ answer: 'Arquiteto', correct: false },
+				{ answer: 'Jornalista', correct: false },
+				{ answer: 'Corretor de Seguros', correct: true },
+			],
+		},
+		{
+			question: 'Qual é o bar favorito do grupo em "How I Met Your Mother"?',
+			answers: [
+				{ answer: "McLaren's", correct: true },
+				{ answer: 'Puzzles', correct: false },
+				{ answer: 'The Hoser Hut', correct: false },
+				{ answer: "MacLaren's Pub", correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é a nave espacial principal em "Star Trek: The Original Series"?',
+			answers: [
+				{ answer: 'USS Voyager', correct: false },
+				{ answer: 'USS Discovery', correct: false },
+				{ answer: 'USS Enterprise', correct: true },
+				{ answer: 'USS Defiant', correct: false },
+			],
+		},
+		{
+			question:
+				'Quem é o capitão da USS Enterprise em "Star Trek: The Next Generation"?',
+			answers: [
+				{ answer: 'Captain Kirk', correct: false },
+				{ answer: 'Captain Picard', correct: true },
+				{ answer: 'Captain Sisko', correct: false },
+				{ answer: 'Captain Janeway', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o planeta natal dos Vulcans em "Star Trek"?',
+			answers: [
+				{ answer: 'Klingon', correct: false },
+				{ answer: 'Bajor', correct: false },
+				{ answer: 'Cardassia', correct: false },
+				{ answer: 'Vulcan', correct: true },
+			],
+		},
+		{
+			question: 'Qual é o lema da Frota Estelar em "Star Trek"?',
+			answers: [
+				{ answer: 'To explore new worlds', correct: false },
+				{ answer: 'To seek out new life', correct: false },
+				{ answer: 'To boldly go where no one has gone before', correct: true },
+				{ answer: 'To protect the galaxy', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o nome do café favorito do grupo em "Friends"?',
+			answers: [
+				{ answer: 'Central Perk', correct: true },
+				{ answer: 'Coffee House', correct: false },
+				{ answer: "Joey's Java", correct: false },
+				{ answer: 'Perk It Up', correct: false },
+			],
+		},
+		{
+			question: 'Qual personagem trabalha como paleontólogo em "Friends"?',
+			answers: [
+				{ answer: 'Rachel Green', correct: false },
+				{ answer: 'Phoebe Buffay', correct: false },
+				{ answer: 'Ross Geller', correct: true },
+				{ answer: 'Monica Geller', correct: false },
+			],
+		},
+		{
+			question: 'Quem é o irmão gêmeo de Phoebe em "Friends"?',
+			answers: [
+				{ answer: 'Frank Buffay Jr.', correct: false },
+				{ answer: 'Chandler Bing', correct: false },
+				{ answer: 'Ursula Buffay', correct: true },
+				{ answer: 'Joey Tribbiani', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o trabalho de Chandler Bing em "Friends"?',
+			answers: [
+				{ answer: 'Ator', correct: false },
+				{ answer: 'Chef', correct: false },
+				{ answer: 'Contador', correct: true },
+				{ answer: 'Médico', correct: false },
+			],
+		},
+		{
+			question:
+				'Quem é o chefe da Dunder Mifflin Scranton Branch em "The Office"?',
+			answers: [
+				{ answer: 'Jim Halpert', correct: false },
+				{ answer: 'Michael Scott', correct: true },
+				{ answer: 'Dwight Schrute', correct: false },
+				{ answer: 'Pam Beesly', correct: false },
+			],
+		},
+		{
+			question:
+				'Qual é o nome da empresa fictícia onde os personagens trabalham em "The Office"?',
+			answers: [
+				{ answer: 'PaperCo', correct: false },
+				{ answer: 'WorkSmart', correct: false },
+				{ answer: 'Dunder Mifflin', correct: true },
+				{ answer: 'OfficePro', correct: false },
+			],
+		},
+		{
+			question: 'Quem é o personagem principal de "24 Horas"?',
+			answers: [
+				{ answer: 'Tony Almeida', correct: false },
+				{ answer: 'David Palmer', correct: false },
+				{ answer: 'Jack Bauer', correct: true },
+				{ answer: "Chloe O'Brien", correct: false },
+			],
+		},
+		{
+			question: 'Qual é o formato narrativo exclusivo de "24 Horas"?',
+			answers: [
+				{ answer: 'Formato de Documentário', correct: false },
+				{ answer: 'Formato de Comédia', correct: false },
+				{ answer: 'Formato de Tempo Real', correct: true },
+				{ answer: 'Formato de Animação', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o nome da ilha em "Lost"?',
+			answers: [
+				{ answer: 'Isla Nublar', correct: false },
+				{ answer: 'Isla Bonita', correct: false },
+				{ answer: 'Ilha da Aventura', correct: false },
+				{ answer: 'Ilha misteriosa', correct: true },
+			],
+		},
+		{
+			question: 'Quem é o líder dos "Outros" em "Lost"?',
+			answers: [
+				{ answer: 'Sawyer', correct: false },
+				{ answer: 'Juliet', correct: false },
+				{ answer: 'Ben Linus', correct: true },
+				{ answer: 'Locke', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o nome do voo que cai na ilha em "Lost"?',
+			answers: [
+				{ answer: 'Voo 108', correct: false },
+				{ answer: 'Voo 815', correct: true },
+				{ answer: 'Voo 747', correct: false },
+				{ answer: 'Voo 123', correct: false },
+			],
+		},
+		{
+			question: 'O que é a Estação Cisne em "Lost"?',
+			answers: [
+				{ answer: 'Um restaurante na ilha', correct: false },
+				{ answer: 'Um centro médico', correct: false },
+				{ answer: 'Uma estação de rádio', correct: false },
+				{
+					answer: 'Uma estação de controle de comportamento eletromagnético',
+					correct: true,
+				},
+			],
+		},
+		{
+			question: 'Quem é o protagonista de "The Sopranos"?',
+			answers: [
+				{ answer: 'Tony Soprano', correct: true },
+				{ answer: 'Silvio Dante', correct: false },
+				{ answer: 'Paulie Walnuts', correct: false },
+				{ answer: 'Carmela Soprano', correct: false },
+			],
+		},
+		{
+			question: 'Qual é a profissão de Tony Soprano em "The Sopranos"?',
+			answers: [
+				{ answer: 'Advogado', correct: false },
+				{ answer: 'Médico', correct: false },
+				{ answer: 'Mafioso', correct: true },
+				{ answer: 'Policial', correct: false },
+			],
+		},
+		{
+			question:
+				'O que acontece com Tony Soprano no final da série "The Sopranos"?',
+			answers: [
+				{ answer: 'Ele é preso', correct: false },
+				{ answer: 'Ele é assassinado', correct: false },
+				{ answer: 'O destino é deixado em aberto', correct: true },
+				{ answer: 'Ele foge para outro país', correct: false },
+			],
+		},
+		{
+			question: 'Qual é o apelido de Paulie Gualtieri em "The Sopranos"?',
+			answers: [
+				{ answer: 'Big Pussy', correct: false },
+				{ answer: 'Little Carmine', correct: false },
+				{ answer: 'Tony B.', correct: false },
+				{ answer: 'Paulie Walnuts', correct: true },
 			],
 		},
 	];
