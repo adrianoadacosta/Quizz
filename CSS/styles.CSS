@@ -169,11 +169,15 @@ body {
 
 /* RESPONSIVO */
 @media (max-width: 450px) {
+	body {
+		overflow-x: hidden;
+	}
 	#quizz-container,
 	#question-container {
 		border: none;
 		width: 100%;
 	}
+
 	#answers-box button,
 	#question-container button {
 		width: 100%;
