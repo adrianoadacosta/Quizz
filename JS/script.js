@@ -4214,6 +4214,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		questions = [];
 		hideOrShowQuizz();
 		showBegin();
+		window.location.reload();
 		//init();
 	});
 
